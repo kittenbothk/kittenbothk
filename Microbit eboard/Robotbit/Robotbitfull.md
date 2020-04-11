@@ -46,9 +46,9 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 
     ​                                                                                                                                                                 ![](./image/with_base2.png)
 
-​         ![](./image/play1.png)
+​         ![](./image/play01.png)
 
-[Robotbit 應用示範](https://youtu.be/4tjt9Iy68sY)
+​     [Robotbit 應用示範](https://youtu.be/4tjt9Iy68sY)
 
 ## 外觀規格 
 
