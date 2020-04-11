@@ -2,7 +2,7 @@
 
 
 
-# Kittenbot Robotbit (Micro:bit 擴展板)
+# Robotbit
 
 ## 產品名稱：
 
@@ -46,15 +46,13 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 
 - 板載蜂鳴器，為micro:bit 發聲。
 
-- 前置4粒可獨立編程 RGB LED, 為項目增加光元素。                                                                                                                         
+- 前置4粒可獨立編程 RGB LED, 為項目增加光元素。                                                                                                                  
 
-    ​                                                                                                                                                                
+    ​                                                                                                                                                                                                                                                                              ![](./image/with_base2.png)                                      
     
-    ![](./image/with_base2.png)                                      
+    ​                   
     
-    ​                                                      
-    
-    ​         ![](./image/play01.png)
+     ![](./image/play01.png)
 
 ​           [Robotbit 應用示範](https://youtu.be/4tjt9Iy68sY)
 
