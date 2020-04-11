@@ -99,7 +99,7 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 
 
 
-2. 把micro:bit 跟kittenblock 連接                                                                                                                                                                                                                                                                                                                                                  ![](./image/41_01.png)
+2. 把micro:bit 跟kittenblock 連接                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ![](./image/41_01.png)
 
 
 
@@ -179,7 +179,7 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 當第一次安裝電池時，拓展板處於待激活狀態（電源燈不亮），此時需要短按一下電池保護激活按鈕或連接usb供電.
 使拓展板進入正常工作模式（如果你重新安裝電池，就需要操作這個步驟）   
 
-### 18650電源開關                                                                                                                                                                                                    ![](./image/11.png)
+### 18650電源開關                                                                                                                                                                                                                                                                                                             ![](./image/11.png)
 
 開關打開後（撥向綠色端子那邊為打開開關），為Micro:bit和擴展板的接口供電（擴展板需要裝上18650電池）  
 
@@ -196,14 +196,14 @@ attention: 只能用於充電, 不是用於下載hex程式
 
 
 
-### 電源與電量指示燈                                                                                                                                                                                          ![](./image/12.png)
+### 電源與電量指示燈                                                                                                                                                                                                                                                             ![](./image/12.png)
 
 Led（3）為電源指示燈，打開開關後常亮   
 Led（1）為充電指示燈，充電過程中常亮，電量充滿後Led（2）常亮   
 
 
 
-### Micro:bit立式插槽                                                                                                                                                                                ![](./image/13.png)
+### Micro:bit立式插槽                                                                                                                                                                                                                                     ![](./image/13.png)
 
 用於安裝Microbit主板。
 
@@ -213,7 +213,7 @@ Led（1）為充電指示燈，充電過程中常亮，電量充滿後Led（2）
 
 
 
-### 4路全彩RGB燈                                                                                                                                               ![](./image/14.png)
+### 4路全彩RGB燈                                                                                                                                                                                                             ![](./image/14.png)
 
 4路RGB燈實際與Micro:bit的P16相連控制   
 
@@ -243,7 +243,7 @@ Led（1）為充電指示燈，充電過程中常亮，電量充滿後Led（2）
 
 
 
-### 蜂鳴器與跳帽 (Jumper)                                                                                                         ![](./image/21_1.png)
+### 蜂鳴器與跳帽 (Jumper)                                                                                                                                                            ![](./image/21_1.png)
 
 - 蜂鳴器跳帽於出廠時默認已插上，把蜂鳴器與Micro:bit的P0口連接   
 
@@ -253,7 +253,7 @@ Led（1）為充電指示燈，充電過程中常亮，電量充滿後Led（2）
 
   
 
-### Micro:bit的IO口引出                                                                                                        ![](./image/18.png)
+### Micro:bit的IO口引出                                                                                                                                                             ![](./image/18.png)
 
 已經將Micro:bit上P0-P2、P8、P12-P15轉出到擴展板上（P0使用時需要拔掉跳帽）
 標準的arduino 3PIN接口，支持市面上的Arduino模塊與常用模塊
@@ -262,13 +262,13 @@ P0-P2支持數字讀寫和模擬讀寫(Analogy)，P8、P12-P15只支持數字(Di
 
 
 
-### I2C接口                                                                                                                                                    ![](./image/19.png)
+### I2C接口                                                                                                                                                                                                                         ![](./image/19.png)
 
 可拓展I2C模塊，只能用於插接I2C模塊，不能用於普通IO口讀寫
 
 
 
-### 2PIN外接電源端子                                                                                                                                                   <img src="./image/20.png" style="zoom:67%;" />
+### 2PIN外接電源端子                                                                                                                                                                               ![](./image/20.png)
 
 - 雖然有防反接功能，但接線仍需要註意正負極。
 
