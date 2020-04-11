@@ -16,9 +16,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'testing'
-copyright = '2020, Jacky'
-author = 'Jacky'
+project = 'Kittenbot HK'
+copyright = '2020, Kittenbot HK'
+author = 'Kittenbot HK Team'
 
 
 # -- General configuration ---------------------------------------------------
