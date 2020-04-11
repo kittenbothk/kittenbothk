@@ -44,7 +44,9 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 
 - 前置4粒可獨立編程 RGB LED, 為項目增加光元素。                                                   
 
-    ​                                                                                                                                                                 ![](./image/with_base2.png)
+    ​                                                                                                                                                                 ![](./image/with_base2.png)                                                                                            
+    
+    
 
 ​         ![](./image/play01.png)
 
@@ -97,13 +99,12 @@ __網上訂購__----------→[Robotbit v2.2](https://kidslab.boutir.com/i/SXu22l
 
 
 
-2. 把micro:bit 跟kittenblock 連接      
-
-   ​                                                                                                                                                                                            ![](./image/41_01.png)
+2. 把micro:bit 跟kittenblock 連接                                                                                                                                                                                                                                                                                                                                                  ![](./image/41_01.png)
 
 
 
-3. 連接後，可見左側自動加載包含Robotbit的插件分欄可供使用。![](./image/43_1.png) 
+3. 連接後，可見左側自動加載包含Robotbit的插件分欄可供使用。                                                                                             
+4. ![](./image/43_1.png) 
 
 
 
