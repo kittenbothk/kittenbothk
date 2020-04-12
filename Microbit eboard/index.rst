@@ -8,3 +8,4 @@ Microbit擴展板
     :glob:
 
     Robotbitfull
+    Armourbit
