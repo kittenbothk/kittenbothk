@@ -59,7 +59,7 @@ Makecode Online：https://makecode.microbit.org/
 
 ## Reset (重啟)Microbit 示範
 
-用於重定Microbit的程式（這樣你就不用把下Microbit進行復位了）
+用於重定Microbit的程式（這樣你就不用把Microbit 拿出來才能進行復位了）
 
 ![](./images/IMG_2568.GIF)
 
