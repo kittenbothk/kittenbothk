@@ -14,7 +14,7 @@
 
 ·    防反插端子轉4P杜邦線 x1
 
-![](./KOI00/KOI packing.png)
+![](./KOI00/KOI-packing.png)
 
 
 
