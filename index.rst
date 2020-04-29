@@ -4,7 +4,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Micro:bit擴展板 說明&教程
+    :caption: Micro:bit擴展板說明及入門教程
     
     Microbit eboard/index
 
