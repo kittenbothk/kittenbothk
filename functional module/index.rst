@@ -12,7 +12,7 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: AI鏡頭
+    :caption: AI鏡頭KOI
     :glob:
 
     AI Cam/index
