@@ -1,10 +1,10 @@
-# **圓形追踪**
+# **方形追踪**
 
-矩形與圓形追踪在生活中用得比較少，一般用在工業流水線上的視覺分揀與碼垛場景。
+方形與圓形追踪在生活中用得比較少，一般用在工業流水線上的視覺分揀與碼垛場景。
 
 
 
-## 編寫圓形追踪程式
+## 編寫方形追踪程式
 
 **加載KOI插件：https://github.com/KittenBot/pxt-koi**
 
@@ -14,19 +14,19 @@
 
 
 
-​             ![](KOI07/01-1.png)
+​             ![](KOI08/01-1.png)
 
 
 
 完整參考程式：
 
-  ![](KOI07/02-1.png)
+  ![](KOI08/02-1.png)
 
 
 
 ### 臨界值
 
- ![](KOI07/04-1.png)
+ ![](KOI08/04-1.png)
 
 臨界值是影響識別率的一個參數, 需要自主嘗試並調整臨界值。
 
@@ -36,13 +36,13 @@
 
 ## **程式運行流程**
 
-把程式下載到Microbit 上, 按下Microbit 上的A鍵. Microbit 點陣會顯示出檢測所得之半徑值 (佔KOI 的螢幕長度計算, 最大r 值在105 - 110 右左); 同時在KOI 的螢幕上顯示出圓中心的X, Y 位置值。
+程式下載到Microbit 上, 按下Microbit 上的A鍵. KOI 的螢幕上顯示出左下角的x, y 位置值, 還有當時測得的長度與寬度 (KOI 螢幕單位佔比計算)
 
 
 
 ## 進階程式
 
-為方便讀取圓形資訊, 我們便可考慮多加一塊OLED顯示屏, 以提高資訊的可讀性。
+為方便讀取方形資訊, 我們便可考慮多加一塊OLED顯示屏, 以提高資訊的可讀性。
 
 ### OLED接線
 
@@ -56,15 +56,15 @@
 
 **加入OLED的插件： https://github.com/KittenBot/pxt-oled**
 
- ![](KOI07/03-1.png)
+ ![](KOI08/03-1.png)
 
 
 
 ## 參考程式下載
 
-[1. 圓形追踪 Hex](https://bit.ly/KOICircleRegHex)
+[1. 方形追踪 Hex](https://bit.ly/KOIRectangleRecHex)
 
-[2. 圓形追踪, OLED顯示](https://bit.ly/KOICircleRegOLEDHex)
+[2. 方形追踪, OLED顯示](https://bit.ly/KOIRectangleOLEDHex)
 
 
 
@@ -84,7 +84,7 @@
 
    ·    識別背景盡量單調，不能太雜亂;
 
-   ·    圓形有銳利的輪廓。
+   ·    方形有銳利的輪廓。
    
    
 

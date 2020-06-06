@@ -12,4 +12,6 @@ Makecode上各種功能編程指引
     KOI04_ScreenCapture
     KOI05_RecAndPlay
     KOI06_BarQRCodeReading
+    KOI07_CircleTracing
+    KOI08_RectangleTracing
    
