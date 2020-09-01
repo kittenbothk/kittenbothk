@@ -36,11 +36,19 @@ Armourbit與KOI配合使用時，KOI必須額外提供5V電。
 
 另一端顏色順序為 - 黑, 紅, 藍, 綠
 
-分別對應Robitibit 上 - GND, 5V, P1, P12
+分別對應Robitibit 上 - GND, 5V, P1, P1; 針對不同固件版本, 針腳定義會有所不同, 影响編程時初始化積木的設定。
 
-![](McQsImage/robotbit_connection1.png) 
+詳細見下圖: 
+
+![](McQsImage/KOI_Robotbit_connection_update.png) 
 
 #### 重要事項: 黑 (GND) 及 紅(5V) 切勿反接!!!
+
+.
+
+.
+
+.
 
 再次*檢查接線無誤* 後, 就可以打開Robitbit 的開關, 便會看到KOI 的屏幕顯示出鏡頭當下所拍到的畫面。
 
