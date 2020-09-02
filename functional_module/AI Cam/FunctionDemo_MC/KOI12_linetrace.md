@@ -10,22 +10,20 @@
 
 ## 編寫線條追蹤程式
 
-![](../../modules/images/mcbanner.png)
+![](../../PWmodules/images/mcbanner.png)
 
-加載KOI插件：https://github.com/KittenBot/pxt-koi
+### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
 
-[詳細方法](https://kittenbothk.readthedocs.io/en/latest/functional%20module/AI%20Cam/makecodeQs.html)
+### [詳細方法](../makecodeQs.md)
 
-按鍵積木塊：
+線條檢測積木塊：
 
 ![](KOI12/image4165.png)
 
 編寫程式：
 
 ![](KOI12/code.png)
-
-
 
 ## 按鍵A觸發顏色追蹤
 
@@ -37,11 +35,7 @@
 
 要注意的是校正的顏色需要與背景有明顯的分別才能夠準確校正。
 
-
 ![](KOI12/04.png)
-
-
-
 
 ## 程式流程
 
@@ -71,25 +65,35 @@
 
 ![](KOI12/01.png)
 
-## 參考程式下載
+## 參考程式
 
-[1. KOI Line Tracing](https://bit.ly/KOILineTracingHex)
+[1. 線條檢測HEX網址(v0.43)](https://makecode.microbit.org/_LvRAHfgD8Au9)
 
-[2. KOI Line Tracing with OLED](https://bit.ly/KOILineTracingOLEDHex)
+[1. 線條檢測HEX網址(v1.8.2)](https://makecode.microbit.org/_bJdXpF8scDhJ)
+
+[2. 線條檢測+OLED HEX網址(v0.43)](https://makecode.microbit.org/_CLj4H8Lgfhji)
+
+[2. 線條檢測+OLED HEX網址(v1.8.2)](https://makecode.microbit.org/_cuq78EWetbVD)
 
 ## FAQ
 
-1：為什麼我重新開機，按下按鍵A，但不能進行顏色校正？
+### 1： 為什麼我重新開機，按下按鍵A，但不能進行顏色校正？
 
 ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit的初始化程式已經跑完了，KOI還沒完全起動, 因此按下A鍵沒有反應。
 
 ·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
 
-2：KOI鯉魚魔塊我直接3V電源可以嗎？
+### 2： KOI鯉魚魔塊我直接3V電源可以嗎？
 
 ·    答：不行，必須要接5V！
 
-3：如何提高巡線的準確性？
+### 3： 如何提高巡線的準確性？
 
 ·    答：盡量保持簡潔的背景，並使用與背景顏色有明顯分別的物件。
+
+### 4: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+
+·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+
+·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 

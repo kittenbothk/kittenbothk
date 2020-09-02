@@ -6,41 +6,31 @@
 
 ## 編寫方形追踪程式
 
-![](../../modules/images/mcbanner.png)
+![](../../PWmodules/images/mcbanner.png)
 
-加載KOI插件：https://github.com/KittenBot/pxt-koi
+### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
+### [詳細方法](../makecodeQs.md)
 
+方形追踪積木塊：
 
-按鍵積木塊：
-
-
-
-​             ![](KOI08/01-1.png)
-
-
+![](KOI08/01-1.png)
 
 完整參考程式：
 
-  ![](KOI08/02-1.png)
-
-
+![](KOI08/02-1.png)
 
 ### 臨界值
 
- ![](KOI08/04-1.png)
+![](KOI08/04-1.png)
 
 臨界值是影響識別率的一個參數, 需要自主嘗試並調整臨界值。
 
 臨界值越大，干擾越少，但識別難度也會提高。因此需要自己根據場景多做測試。
 
-
-
-## **程式運行流程**
+## 程式運行流程
 
 程式下載到Microbit 上, 按下Microbit 上的A鍵. KOI 的螢幕上顯示出左下角的x, y 位置值, 還有當時測得的長度與寬度 (KOI 螢幕單位佔比計算)
-
-
 
 ## 進階程式
 
@@ -50,37 +40,33 @@
 
 本例子以Robotbit 示範, 把OLED 屏接到I2C 接口上
 
-​      ![](KOI06/03-1.png)
-
-
+![](KOI06/03-1.png)
 
 ### 編寫程式
 
-**加入OLED的插件： https://github.com/KittenBot/pxt-oled**
+### 加入OLED的插件： https://github.com/KittenBot/pxt-oled**
 
- ![](KOI08/03-1.png)
+![](KOI08/03-1.png)
 
+## 參考程式
 
+[1. 方形追踪 HEX網址(v0.43)](https://makecode.microbit.org/_71rRF96xwgJJ)
 
-## 參考程式下載
+[2. 方形追踪, OLED顯示HEX網址(v0.43)](https://makecode.microbit.org/_HD46mYF88YCF)
 
-[1. 方形追踪 Hex](https://bit.ly/KOIRectangleRecHex)
+[1. 方形追踪 HEX網址(v1.8.2)](https://makecode.microbit.org/_eErea8E16Xsq)
 
-[2. 方形追踪, OLED顯示](https://bit.ly/KOIRectangleOLEDHex)
-
-
+[2. 方形追踪, OLED顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_18tc0TAkdR80)
 
 ## FAQ
 
-1. **為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？**
+### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
 
 ​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
 
 ​       ·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
 
-
-
-2. **如何提高識別率**
+### 2: 如何提高識別率
 
    ·    調整識別閾值，調整識別環境與調整識別物體;
 
@@ -88,6 +74,12 @@
 
    ·    方形有銳利的輪廓。
    
+### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+
+·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+
+·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
+
    
 
 

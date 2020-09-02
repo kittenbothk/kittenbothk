@@ -4,11 +4,13 @@
 
 ## 編寫圓形追踪程式
 
-![](../../modules/images/mcbanner.png)
+![](../../PWmodules/images/mcbanner.png)
 
-加載KOI插件：https://github.com/KittenBot/pxt-koi
+### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
-按鍵積木塊：
+### [詳細方法](../makecodeQs.md)
+
+圓形追踪積木塊：
 
  ![](KOI07/01-1.png)
 
@@ -28,15 +30,12 @@
 
   ![](KOI06/02-1.png)
 
-## **程式運行流程**
+## 程式運行流程
 
 
-把程式下載到Microbit 上, 按下Microbit 上的A鍵. Microbit 點陣會顯示出檢測所得之半徑值 (佔KOI 的螢幕長度計算, 最大r 值在105 - 110 右左); 同時在KOI 的螢幕上顯示出圓中心的X, Y 位置值。
+把程式下載到Microbit 上, 按下Microbit 上的A鍵. Microbit 點陣會顯示出檢測所得之半徑值 (佔KOI 的螢幕長度計算, 最大r 值在105 - 110 左右); 
 
-把程式下載到Microbit 上, 
-
-1. 把Bar Code 放到KOI 鏡頭前, 按下Microbit的按鍵A，進行識別;  Bar Code 數字便會顯示在KOI 的螢幕上。
-2. 把QR Code 放到KOI 鏡頭前, 按下Microbit的按鍵B，進行識別;  QR Code 所含的資訊便會顯示在KOI 的螢幕上。
+同時在KOI 的螢幕上顯示出圓中心的X, Y 位置值。
 
 ## 進階程式
 
@@ -54,29 +53,31 @@
 
 ### 編寫程式
 
-**加入OLED的插件： https://github.com/KittenBot/pxt-oled**
+### 加入OLED的插件： https://github.com/KittenBot/pxt-oled
 
  ![](KOI07/03-1.png)
 
  ![](KOI06/04-1.png)
 
-## 參考程式下載
+## 參考程式
 
-[1. 圓形追踪 Hex](https://bit.ly/KOICircleRegHex)
+[1. 圓形追踪 HEX網址(v0.43)](https://makecode.microbit.org/_hKMV8JRWePxH)
 
-[2. 圓形追踪, OLED顯示](https://bit.ly/KOICircleRegOLEDHex)
+[2. 圓形追踪, OLED顯示HEX網址(v0.43)](https://makecode.microbit.org/_8KfVpedkbh7k)
+
+[1. 圓形追踪 HEX網址(v1.8.2)](https://makecode.microbit.org/_Fe8EH2EJyYfm)
+
+[2. 圓形追踪, OLED顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_Mt34MyfV8FA8)
 
 ## FAQ
 
-1. **為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？**
+### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
 
 ​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
 
 ​       ·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
 
-
-
-2. **如何提高識別率**
+### 2: 如何提高識別率
 
    ·    調整識別閾值，調整識別環境與調整識別物體;
 
@@ -84,9 +85,12 @@
 
    ·    圓形有銳利的輪廓。
    
-2. **為什麼不能成功讀取Bar Code 或QR Code？**
 
-   ·    答：條碼及二維碼的寬度要求不小於3.5cm; 若條碼太小，會因解析度太小的原因無法識別。另掃描時保證完全條碼或二維碼入鏡且清晰。
+### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+
+   ·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+
+   ·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
    
 

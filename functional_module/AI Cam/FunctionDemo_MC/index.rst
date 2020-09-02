@@ -1,4 +1,4 @@
-Makecode上各種功能編程指引
+Makecode上KOI各種功能編程指引
 ====================
 
 
@@ -6,6 +6,7 @@ Makecode上各種功能編程指引
     :maxdepth: 1
     :glob:
 
+    init.md
     KOI01_ABButton
     KOI02_Printer
     KOI03_LCDirection
@@ -18,6 +19,10 @@ Makecode上各種功能編程指引
     KOI11_face.md
     KOI09_MachineLearning1.md
     KOI09_MachineLearning2.md
+    KOI10_MachineLearningNoSD.md
+    KOI13_VoiceRec.md
+    KOI14_wifi.md
+    KOI15_FaceRecog.md
 
 
    

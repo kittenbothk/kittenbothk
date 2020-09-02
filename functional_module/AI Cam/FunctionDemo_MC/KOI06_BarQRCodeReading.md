@@ -8,13 +8,14 @@
 
 ## 編寫Bar Code及QR Code讀取程式
 
-![](../../modules/images/mcbanner.png)
+![](../../PWmodules/images/mcbanner.png)
 
-加載KOI插件：https://github.com/KittenBot/pxt-koi
+### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+
+### [詳細方法](../makecodeQs.md)
 
 
-
-按鍵積木塊：
+讀取標籤積木塊：
 
  ![](KOI06/01.png)
 
@@ -26,7 +27,7 @@
 
 
 
-## **程式運行流程**
+## 程式運行流程
 
 把程式下載到Microbit 上, 
 
@@ -49,7 +50,7 @@
 
 ### 編寫程式
 
-**加入OLED的插件： https://github.com/KittenBot/pxt-oled**
+### 加入OLED的插件： https://github.com/KittenBot/pxt-oled
 
  ![](KOI06/04-1.png)
 
@@ -57,19 +58,21 @@
 
 
 
-## 參考程式下載
+## 參考程式
 
-[1. 讀取Bar Code及QR Code Hex](https://bit.ly/KOIQRBarCodeScannerHex)
+[1. 讀取Bar Code及QR Code HEX網址(v0.43)](https://makecode.microbit.org/_78kPzddrzaVq)
 
-[2. 讀取Bar Code 及QR Code, OLED顯示](https://bit.ly/KOIBarAndQRCodeReadOLEDHex)
+[2. 讀取Bar Code及QR Code, OLED顯示HEX網址(v0.43)](https://makecode.microbit.org/_KJp1r3UD4bkL)
+
+[1. 讀取Bar Code及QR Code HEX網址(v1.8.2)](https://makecode.microbit.org/_Wr7g0Rh0YXtW)
+
+[2. 讀取Bar Code及QR Code, OLED顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_g2tJJVbmT1EM)
 
 [Bar Code 及 QR Code Sample](https://bit.ly/KOIBarAndQRCodeSample)
 
-
-
 ## FAQ
 
-1. **為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？**
+### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
 
 ​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
 
@@ -77,9 +80,15 @@
 
 
 
-2. **為什麼不能成功讀取Bar Code 或QR Code？**
+### 2: 為什麼不能成功讀取Bar Code 或QR Code？
 
    ·    答：條碼及二維碼的寬度要求不小於3.5cm; 若條碼太小，會因解析度太小的原因無法識別。另掃描時保證完全條碼或二維碼入鏡且清晰。
+
+### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+
+·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+
+·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
    
 

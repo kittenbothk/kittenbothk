@@ -6,7 +6,7 @@ KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時�
 
  ![](KOI05/01.png)
 
-### 裝上micro SD 卡
+### 裝上micro SD卡
 
  ![](KOI05/02-1.png)
 
@@ -16,13 +16,13 @@ KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時�
 
 ## 编寫錄音與播放程式
 
-![](../../modules/images/mcbanner.png)
+![](../../PWmodules/images/mcbanner.png)
 
-加載KOI插件：https://github.com/KittenBot/pxt-koi
+### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
-[詳細方法](https://kittenbothk.readthedocs.io/en/latest/functional%20module/AI%20Cam/makecodeQs.html)
+### [詳細方法](../makecodeQs.md)
 
-按鍵積木塊：
+錄音與播放積木塊：
 
  ![](KOI05/04.png)
 
@@ -34,7 +34,7 @@ KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時�
 
 
 
-## **程式運行流程**
+## 程式運行流程
 
 把程式下載到Microbit, 
 
@@ -43,15 +43,15 @@ KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時�
 
 
 
-## 參考程式下載
+## 參考程式
 
-[KOI錄音與播放Hex](https://bit.ly/KOIVoiceRecandPlayHex)
+[KOI錄音與播放Hex網址(v0.43)](https://makecode.microbit.org/_ausc1e8vmEJU)
 
-
+[KOI錄音與播放Hex網址(v1.8.2)](https://makecode.microbit.org/_855AryUjVUwe)
 
 ## FAQ
 
-1. **為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？**
+### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
 
 ​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
 
@@ -59,20 +59,26 @@ KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時�
 
 
 
-2. **音訊名稱可以用中文嗎？**
+### 2: 音訊名稱可以用中文嗎？
 
    ·    答：不可以，Makecode本身編碼不支援中文。
 
    
 
-3. **錄音的時長，我可以進行更改嗎？**
+### 3: 錄音的時長，我可以進行更改嗎？
 
    ·    答：不可以，可以錄製的時長已經是最長的，大概3秒。
 
    
 
-4. **播放的音訊，支援MP3格式嗎？**
+### 4: 播放的音訊，支援MP3格式嗎？
 
    ·    答：不支持，只支持wav格式，且wav音訊不能超過512K。因此播放歌曲這種就無法實現了。
 
+
+### 5: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+
+·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+
+·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
