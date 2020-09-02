@@ -1,5 +1,7 @@
 # **快速入門**
 
+
+
 ## 連接Micro:bit
 
 ------
@@ -54,9 +56,7 @@ Armourbit與KOI配合使用時，KOI必須額外提供5V電。
 
 ![](McQsImage/robotbit_connection3-1.png) 
 
-
-
-------
+.
 
 ## 準備Makecode編程
 
@@ -94,9 +94,7 @@ KOI 插件成功載入，如圖所示
 
 ![](McQsImage/03-1.png)  
 
-
-
-------
+.
 
 ## 積木介紹
 
