@@ -42,7 +42,7 @@ Armourbit與KOI配合使用時，KOI必須額外提供5V電。
 
 詳細見下圖: 
 
-![](McQsImage/KOI_Robotbit_connection_update.png) 
+![](McQsImage/robotbit_connection1.png) 
 
 #### 重要事項: 黑 (GND) 及 紅(5V) 切勿反接!!!
 

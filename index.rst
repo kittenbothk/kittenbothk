@@ -5,6 +5,12 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: MakeCode介紹與使用方法
+
+    Makecode/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Micro:bit擴展板說明及入門教程
     
     Microbit_eboard/index
