@@ -1,10 +1,10 @@
-MakeCode編程平台教學
+MakeCode編程平台使用教學
 ====================
 
-MakeCode編程平台的教學。
+MakeCode編程平台使用教學
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     powerBrickMC.md
     makecode_extensionUpdate.md
