@@ -38,13 +38,13 @@ MakeCode 地址:  [https://makecode.microbit.org/](https://makecode.microbit.org
 
 ![](./images/editor1.png) 
 
-複製以下地址，在搜尋欄貼上並搜尋。
+3. 複製以下地址，在搜尋欄貼上並搜尋。
 
 ### https://github.com/KittenBot/pxt-powerbrick
 
 ![](./images/02_02.png) 
 
-點擊加載，加載成功後會新增PowerBrick的積木塊。
+4. 點擊加載，加載成功後會新增PowerBrick的積木塊。
 
 ![](./images/02_03.png) 
 
