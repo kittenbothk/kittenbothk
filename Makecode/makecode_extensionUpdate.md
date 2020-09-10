@@ -6,11 +6,11 @@
 
 ![](./images/mcbanner.png)
 
-#### 本教程使用KOI插件為例子，其他插件的做法與本教程相同。
+本教程使用KOI插件為例子，其他插件的做法與本教程相同。
 
-#### 我們先加載KOI插件：
+我們先加載KOI插件：
 
-#### https://github.com/KittenBot/pxt-powerbrick
+**https://github.com/KittenBot/pxt-powerbrick**
 
 方法請參考：[KittenBot產品與MakeCode](./powerBrickMC)
 
