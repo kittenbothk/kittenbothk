@@ -35,25 +35,25 @@
 
 ![](./images/1.png)
 
--
+
 
 2. **將檔案解壓縮。**
 
 ![](./images/2.png)
 
--
+
 
 3. **打開kflash_gui.exe。**  
 
 ![](./images/3.png) 
 
--
+
 
 4. **請允許運行。**
 
 ![](./images/4.png)
 
--
+
 
 ## 刷入新固件
 
@@ -61,7 +61,7 @@
 
    ![](./images/5.png)
 
--
+
 
 2. **在Board選擇Sipeed Maixduino。**
 
@@ -69,33 +69,33 @@
 
 
 
--
+
 
 3. **在Port選擇連接KOI的接口。**
 
 ![](./images/7.png)  
 
--
+
 
 4. **其他設定可以使用預設值，按下載。** 
 
    ![](./images/8.png) 
 
--
+
 
 5. **耐心等待下載完成。**
 
 ![](./images/9.png) 
 
--
+
 
 6. **下載完成！**
 
 ![](./images/10.png) 
 
--
 
-7. **然後按Reset重啟KOI。**
+
+7. **按Reset重啟KOI。**
 
 ![](./images/reset.png) 
 
