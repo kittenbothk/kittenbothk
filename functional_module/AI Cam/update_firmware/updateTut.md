@@ -8,64 +8,96 @@
 
 
 
-## 重刷固件方法
+## 重刷前準備
 
-將KOI插入電腦的USB接口。
+. 更新固件需要預備
 
-![](./images/usb.jpg)
+1. **刷件程式**kflash , 
+2. **固件檔案**;
 
-更新固件需要預備2樣檔案，**刷件程式**和**固件檔案**, 點擊以下連結下截。
+點擊以下連結準備。
 
-[下載刷件程式](https://dl.sipeed.com/MAIX/tools/kflash_gui/kflash_gui_v1.6.5)
+[下載刷件程式kflash](https://dl.sipeed.com/MAIX/tools/kflash_gui/kflash_gui_v1.6.5)
 
-[固件檔案V1.8.2下載](./updateHist.md)
+[固件檔案下載](./updateHist.md)
 
-.
 
-1. 按照電腦的作業系統下載刷件程式。
+
+. 將KOI插入電腦的USB接口。
+
+![](./images/usb.png) 
+
+-
+
+## 安裝刷件程式kflash
+
+1. **按照電腦的作業系統下載刷件程式。**
 
 ![](./images/1.png)
 
-2. 將檔案解壓縮。
+-
+
+2. **將檔案解壓縮。**
 
 ![](./images/2.png)
 
-3. 打開kflash_gui.exe。
+-
 
-![](./images/3.png)
+3. **打開kflash_gui.exe。**  
 
-4. 請允許運行。
+![](./images/3.png) 
+
+-
+
+4. **請允許運行。**
 
 ![](./images/4.png)
 
-5. 打開固件檔案。
+-
 
-![](./images/5.png)
+## 刷入新固件
 
-6. 在Board選擇Sipeed Maixduino。
+1. 打開固件檔案。           
 
-![](./images/6.png)
+   ![](./images/5.png)
 
-7. 在Port選擇連接KOI的接口。
+-
 
-![](./images/7.png)
+2. **在Board選擇Sipeed Maixduino。**
 
-8. 其他設定可以使用預設值，按下載。
+![](./images/6.png) 
 
-![](./images/8.png)
 
-9. 耐心等待下載完成。
 
-![](./images/9.png)
+-
 
-10. 下載完成！
+3. **在Port選擇連接KOI的接口。**
 
-![](./images/10.png)
+![](./images/7.png)  
 
-11. 然後按Reset重啟KOI。
+-
 
-![](./images/reset.jpg)
+4. **其他設定可以使用預設值，按下載。** 
 
+   ![](./images/8.png) 
+
+-
+
+5. **耐心等待下載完成。**
+
+![](./images/9.png) 
+
+-
+
+6. **下載完成！**
+
+![](./images/10.png) 
+
+-
+
+7. **然後按Reset重啟KOI。**
+
+![](./images/reset.png) 
 
 
 

@@ -46,9 +46,13 @@ KOI有個優勢，可以旋轉攝像頭，旋轉範圍0~180°。但螢幕是不�
 
 ## 參考程式
 
-[LCD方向設定HEX網址(v0.43)](https://makecode.microbit.org/_69hHYwTw6hEM)
+[LCD方向設定HEX網址 (插件0.5.4)](https://makecode.microbit.org/_9cw2dgg26eEx)
 
-[LCD方向設定HEX網址(v1.8.2)](https://makecode.microbit.org/_ULYCfiegi4Wr)
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
@@ -62,10 +66,6 @@ KOI有個優勢，可以旋轉攝像頭，旋轉範圍0~180°。但螢幕是不�
 
 ·    答：不行，必須要接5V！
 
-### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
 
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
-
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
 

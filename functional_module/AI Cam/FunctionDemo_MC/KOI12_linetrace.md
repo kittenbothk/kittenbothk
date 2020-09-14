@@ -67,13 +67,15 @@
 
 ## 參考程式
 
-[1. 線條檢測HEX網址(v0.43)](https://makecode.microbit.org/_LvRAHfgD8Au9)
+[1. 線條檢測HEX (插件0.5.4)](https://makecode.microbit.org/_YRA2chTMo1DA)
 
-[1. 線條檢測HEX網址(v1.8.2)](https://makecode.microbit.org/_bJdXpF8scDhJ)
+[2. 線條檢測+OLED HEX (插件0.5.4)](https://bit.ly/KOILineTracingOLEDHex)
 
-[2. 線條檢測+OLED HEX網址(v0.43)](https://makecode.microbit.org/_CLj4H8Lgfhji)
+## 插件版本與更新
 
-[2. 線條檢測+OLED HEX網址(v1.8.2)](https://makecode.microbit.org/_cuq78EWetbVD)
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
@@ -91,9 +93,4 @@
 
 ·    答：盡量保持簡潔的背景，並使用與背景顏色有明顯分別的物件。
 
-### 4: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
-
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
-
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 

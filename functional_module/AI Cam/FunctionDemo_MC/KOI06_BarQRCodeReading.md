@@ -60,15 +60,17 @@
 
 ## 參考程式
 
-[1. 讀取Bar Code及QR Code HEX網址(v0.43)](https://makecode.microbit.org/_78kPzddrzaVq)
+[1. 讀取Bar Code及QR Code HEX (插件0.5.4)](https://makecode.microbit.org/_DwP2eT4atLDc)
 
-[2. 讀取Bar Code及QR Code, OLED顯示HEX網址(v0.43)](https://makecode.microbit.org/_KJp1r3UD4bkL)
-
-[1. 讀取Bar Code及QR Code HEX網址(v1.8.2)](https://makecode.microbit.org/_Wr7g0Rh0YXtW)
-
-[2. 讀取Bar Code及QR Code, OLED顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_g2tJJVbmT1EM)
+[2. 讀取Bar Code及QR Code, OLED顯示HEX (插件0.5.4)](https://makecode.microbit.org/_0tJfsPK0w0yj)
 
 [Bar Code 及 QR Code Sample](https://bit.ly/KOIBarAndQRCodeSample)
+
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
@@ -84,11 +86,6 @@
 
    ·    答：條碼及二維碼的寬度要求不小於3.5cm; 若條碼太小，會因解析度太小的原因無法識別。另掃描時保證完全條碼或二維碼入鏡且清晰。
 
-### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
-
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
-
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
    
 

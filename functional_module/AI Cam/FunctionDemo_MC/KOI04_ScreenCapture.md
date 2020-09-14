@@ -52,13 +52,16 @@
 
 ## 參考程式
 
-[1. 影像截圖與顯示HEX網址(v0.43)](https://makecode.microbit.org/_Udf2CAaqa2Ej)
+[1. 影像截圖與顯示HEX網址 (插件0.5.4)](https://makecode.microbit.org/_7a17i82DHb0T)
 
-[2. 連續影像截圖與顯示HEX網址(v0.43)](https://makecode.microbit.org/_gqfFu3TU8dsd)
+[2. 連續影像截圖與顯示HEX網址 (插件0.5.4)](https://makecode.microbit.org/_E0eC53AHA3vq)
 
-[1. 影像截圖與顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_dEbXqaFcCCd3)
 
-[2. 連續影像截圖與顯示HEX網址(v1.8.2)](https://makecode.microbit.org/_PkigfFKUMR0r)
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
@@ -76,10 +79,5 @@
 
 ·    答：不行，必須要接5V！
 
-### 4: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
-
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
-
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 
 

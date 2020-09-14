@@ -14,15 +14,15 @@ KOI上自帶兩個AB側按鍵與一個Reset按鍵。
 
 按鍵積木塊：
 
- ![](KOI01/02.png)
+ ![](KOI01/02-1.png)
 
 btn1和btn2分別指的是按鍵A與按鍵B的按鍵狀態。
 
-當按鍵按下時，狀態為1，否則為0。通過判斷btn1或者btn2的變數是否為1時，就可判斷按鍵是否按下。
+當按鍵按下時，狀態為1，否則為0。通過判斷btnA或者btnB的變數是否為0時，就可判斷按鍵是否按下。
 
 完整參考程式：
 
-![](KOI01/03-1.png)
+![](KOI01/03-2.png)
 
 ## 程式運行流程
 
@@ -31,9 +31,13 @@ btn1和btn2分別指的是按鍵A與按鍵B的按鍵狀態。
 
 ## 參考程式
 
-[KOI AB 按鍵應用HEX網址(v0.43)](https://makecode.microbit.org/_cRJJaAfW3bmw)
+[KOI AB 按鍵應用HEX (插件0.5.4)](https://makecode.microbit.org/_DK6b222tjUz8)
 
-[KOI AB 按鍵應用HEX網址(v1.8.2)](https://makecode.microbit.org/_H8h9jjh4RdTH)
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
@@ -47,9 +51,4 @@ btn1和btn2分別指的是按鍵A與按鍵B的按鍵狀態。
 
 ·    答：不行，必須要接5V！
 
-### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
-
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
-
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
 

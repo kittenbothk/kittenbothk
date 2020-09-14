@@ -40,9 +40,14 @@ KOI上的機器學習不是必須要SD卡的，資料可以臨時儲存在KOI上
 
 ## 參考程式
 
-[KOI 分類Trainer HEX網址(v0.43)](https://makecode.microbit.org/_8Ag5b2gjogvq)
+[KOI 機器學習 HEX (插件0.5.4)](https://makecode.microbit.org/_8Ag5b2gjogvq)
 
-[KOI 分類Trainer HEX網址(v1.8.2)](https://makecode.microbit.org/_07VXAdMz0Wsg)
+
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 ### 1： 為什麼我重新開機，按下按鍵A，但按下A鍵沒有反應？
@@ -55,8 +60,9 @@ KOI上的機器學習不是必須要SD卡的，資料可以臨時儲存在KOI上
 
 ·    答：不行，必須要接5V！
 
-### 3: KOI開啟的時候出現選項菜單，我應該按下A還是B呢？
+### 3: 為什麼我在KOI固件版本v1.8.2上嘗試訓練分類器時，螢幕出現紅字警告，不能成功訓練分類器？
 
-·    答：KOI在新的固件上新增了開機選項，選擇主控板或被動運行模式。
+·    答：KOI還未重設分類器。
 
-·    解決辦法：連接Microbit時我們選擇被動模式，按下KOI的B按鍵（右面的按鍵），進入被動模式。
+·    解決辦法：使用「重置分類器」這積木手動叫KOI重置分類器。（在參考程式中，編寫了按下KOI的A按鍵手動重置分類器的功能）
+
