@@ -44,9 +44,22 @@
 
 ## 接線方法
 
+### Armourbit
+
+---
+
 將顏色手勢魔塊用4pin排線連接至Armourbit的I2C接口。
 
 ![](./kbimages/gesturecon.jpg)
+
+### Robotbit
+
+--- 
+將顏色手勢魔塊連接至Robotbit的I2C接口。
+
+    藍色線（A）請接到SCL，綠色線（B）請接到SDA。
+
+![](./images/gesture_wire1.png)
 
 ## MakeCode編程教學
 
@@ -66,6 +79,8 @@
 
 [參考程式下載](https://bit.ly/PowerbrickM7_01Hex)
 
+[參考程式網址](https://makecode.microbit.org/_LLbfYx40CEdX)
+
 HSV色環可以參考下圖：
 
 ![](./images/hsv.jpg)
@@ -76,12 +91,15 @@ HSV色環可以參考下圖：
 
 [參考程式下載](https://bit.ly/PowerbrickM7_02Hex)
 
+[參考程式網址](https://makecode.microbit.org/_LTt5ugP2f00K)
+
 ### 距離檢測
 
 ![](./images/colordist.png)
 
 [參考程式下載](https://bit.ly/PowerbrickM7_03Hex)
 
+[參考程式網址](https://makecode.microbit.org/_RhKfYUJwu0AK)
 
 ### 手勢檢測
 
@@ -89,23 +107,31 @@ HSV色環可以參考下圖：
 
 [參考程式下載](https://bit.ly/PowerbrickM7_04Hex)
 
+[參考程式網址](https://makecode.microbit.org/_4eiKzMXot5Vy)
+
 ### LED控制
 
 ![](./images/led.png)
 
 [參考程式下載](https://bit.ly/PowerbrickM7_05Hex)
 
+[參考程式網址](https://makecode.microbit.org/_c5s6sFH3mgXY)
+
 ### Makecode教學短片
 
 [![](./images/gesturetut.png)](https://www.youtube.com/watch?v=7WrkDYMc2f0)
+
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## KittenBlock編程教學
 
 ![](./images/kbbanner.png)
 
 ### 加載PowerBrick插件
-
-離線版與在線版同樣操作。
 
 在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
 

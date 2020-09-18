@@ -32,9 +32,23 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 
 ## 接線方法
 
+### Armourbit
+
+---
+
 將RFID魔塊用4pin排線連接至Armourbit的I2C接口。
 
 ![](./kbimages/rfidcon.jpg)
+
+### Robotbit
+
+--- 
+將RFID魔塊連接至Robotbit的I2C接口。
+
+    藍色線（A）請接到SCL，綠色線（B）請接到SDA。
+
+![](./images/rfid_wire1.png)
+
 
 ## MakeCode編程教學
 
@@ -52,11 +66,15 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 
 [參考程式下載](https://bit.ly/PowerbrickM8_01Hex)
 
+[參考程式網址](https://makecode.microbit.org/_XdP0Pye1rFA0)
+
 ### RFID卡片讀取
 
 ![](./images/rfidread.png)
 
 [參考程式下載](https://bit.ly/PowerbrickM8_02Hex)
+
+[參考程式網址](https://makecode.microbit.org/_TEz6D45qgDaa)
 
 ### RFID讀取UUID
 
@@ -66,7 +84,9 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 
 [參考程式下載](https://bit.ly/PowerbrickM8_03Hex)
 
-##UUID身份辨別
+[參考程式網址](https://makecode.microbit.org/_a6wiKdUqWaXL)
+
+### UUID身份辨別
 
 我們可以用UUID作身份辨別。
 
@@ -76,17 +96,23 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 
 [參考程式下載](https://bit.ly/PowerbrickM8_04Hex)
 
+[參考程式網址](https://makecode.microbit.org/_c4rcrE76Tc6Y)
+
 ### Makecode教學短片
 
 [![](./images/rfidtut.png)](https://www.youtube.com/watch?v=r1B6l7xK7So)
+
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
 
 ## KittenBlock編程教學
 
 ![](./images/kbbanner.png)
 
 ### 加載PowerBrick插件
-
-離線版與在線版同樣操作。
 
 在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
 
