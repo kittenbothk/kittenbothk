@@ -7,5 +7,6 @@ Microbit擴展板
     :maxdepth: 1
     :glob:
 
-    Robotbitfull
+    Robotbit/index
     ../functional_module/PWmodules/Armourbit.md
+    
