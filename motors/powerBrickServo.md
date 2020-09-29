@@ -4,7 +4,7 @@ Geekservo舵機 (HKBD9005A)
 
 ![](./images/13_04.png)
 
-這是一款兼容樂高件的舵機。輸出軸為樂高十字軸。主要用在需求精細控制的結構上，例如關節機械臂。
+這是一款兼容樂高件的舵機。輸出軸為樂高十字軸。主要用在需求精細控制的結構上，例如關節，機械臂。
 
 ## 產品參數
 
@@ -56,18 +56,39 @@ Geekservo舵機 (HKBD9005A)
 
 ## 接線方法
 
+### ArmourBit
+
 將舵機的橙紅啡線連接至Armourbit背部的舵機接口。
 
 ![](./kbimages/servocon.jpg)
 
     啡色接負極，紅色接正極，橙色接數據
+    
+### RobotBit
 
+將舵機的橙紅啡線連接至RobotBit的舵機接口。
+
+![](./images/servoConRB.jpg)
+
+![](./images/2kservoConRB1.jpg)
+
+    啡色接負極，紅色接正極，橙色接數據
 
 ## MakeCode編程教學
 
 ![](./images/mcbanner.png)
 
+### ArmourBit與RobotBit的編程是一樣的。
+
+### ArmourBit
+
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### RobotBit
+
+### 加載RobotBit插件：
+
+![](./images/robotbitExtension.png)
 
 ### 舵機積木塊:
 
@@ -79,9 +100,17 @@ Geekservo舵機 (HKBD9005A)
 
 [參考程式下載](https://bit.ly/PowerbrickM12_01Hex)
 
+[參考程式網址](https://makecode.microbit.org/_APuPfVUHtMpe)
+
 ### Makecode教學短片
 
 [![](./images/geekservotut.png)](https://www.youtube.com/watch?v=gUR2DbgVTCQ)
+
+## 插件版本與更新
+
+PowerBrick插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../Makecode/makecode_extensionUpdate)
 
 ## KittenBlock編程教學
 
