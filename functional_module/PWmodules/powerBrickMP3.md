@@ -48,13 +48,13 @@ MP3魔塊 (HKBM8012E)
 
 ![](./images/mp3.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM10_01Hex)
+[參考程式網址](https://makecode.microbit.org/_1zuJ9JUkK3WT)
 
 ### 指定序號播放音頻
 
 ![](./images/mp3id.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM10_02Hex)
+[參考程式網址](https://makecode.microbit.org/_PqF5VqYgp6Yu)
 
 ### 指定名稱播放音頻
 
@@ -62,7 +62,7 @@ MP3魔塊 (HKBM8012E)
 
     名稱只支援英文和數字，長度不能長於8位。
 
-[參考程式下載](https://bit.ly/PowerbrickM10_03Hex)
+[參考程式網址](https://makecode.microbit.org/_2uChE8PtC8fT)
 
 ### Makecode教學短片
 
@@ -72,9 +72,13 @@ MP3魔塊 (HKBM8012E)
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+## 插件版本與更新
 
-離線版與在線版同樣操作。
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+
+### 加載PowerBrick插件
 
 在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
 

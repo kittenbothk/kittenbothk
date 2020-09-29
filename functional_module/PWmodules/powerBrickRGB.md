@@ -48,29 +48,30 @@
 
 ![](./images/rgbsingle.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM9_01Hex)
+[參考程式網址](https://makecode.microbit.org/_dgdfa73fb6jr)
 
 ### 彩虹色點亮
 
 ![](./images/rgbrainbow.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM9_02Hex)
+[參考程式網址](https://makecode.microbit.org/_VDtaD6AVjfdd)
 
 ### 單顆燈點亮
 
 ![](./images/rgbpixel.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM9_03Hex)
+[參考程式網址](https://makecode.microbit.org/_iv6MHWEkDMjr)
 
 ### 圖案點亮示範
 
 ![](./images/rgbpyramid.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM9_04Hex)
+[參考程式網址](https://makecode.microbit.org/_2cF73496m8p1)
 
 ### Makecode教學短片
 
 [![](./images/rgbtut.png)](https://www.youtube.com/watch?v=Pmg6Gvg29jo)
+
 
 ## 串聯與圖像化編輯器教學
 
@@ -90,13 +91,17 @@
 
 ![](./images/11_23.png)
 
+## 插件版本與更新
+
+插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+
+詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+
 ## KittenBlock編程教學
 
 ![](./images/kbbanner.png)
 
 ### 加載PowerBrick插件
-
-離線版與在線版同樣操作。
 
 在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
 
