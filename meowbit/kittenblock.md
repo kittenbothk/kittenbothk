@@ -10,7 +10,7 @@ Kittenblock是針對青少年STEAM教育的編程平台，是Meowbit的其中一
 
 ### 1. 將Meowbit連接電腦，並進入下載模式。
 
-- 按著Meowbit的A按鍵不放，打開Meowbit電源。
+- 按著MeowBit的A按鍵不放，打開MeowBit電源。
 
 ![](./images/kb1.jpg)
 

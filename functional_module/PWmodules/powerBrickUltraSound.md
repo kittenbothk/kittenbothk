@@ -32,13 +32,15 @@
 
 將超聲波聲音魔塊用4pin排線連接至Armourbit。
 
-![](./kbimages/ultrasoundcon.jpg)
+![](./images/ultrasound_wire.png)
 
 ## MakeCode編程教學
 
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### 超聲波聲音魔塊積木塊:
 

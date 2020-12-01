@@ -19,13 +19,15 @@
 
 將溫度濕度魔塊用4pin排線連接至Armourbit，然後用3pin排線將魔塊連接至溫度濕度魔塊。
 
-![](./kbimages/06_04.png)
+![](./images/soil_wire.png)
 
 ## MakeCode編程教學
 
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### 土壤濕度魔塊積木塊:
 

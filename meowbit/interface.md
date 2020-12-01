@@ -1,6 +1,6 @@
-# Meowbit操作教學
+# MeowBit操作教學
 
-這裡會教大家一些關於Meowbit的操作，例如進入下載模式，選項介面，固件更新等。
+這裡會教大家一些關於MeowBit的操作，例如進入下載模式，選項介面，固件更新等。
 
 ## 進入下載模式
 
@@ -8,9 +8,9 @@
 
 ### 方法1
 
-首先用USB線連接Meowbit到電腦。
+首先用USB線連接MeowBit到電腦。
 
-按著Meowbit的A按鍵不放，打開Meowbit電源。
+按著MeowBit的A按鍵不放，打開MeowBit電源。
 
 Meowbit會顯示寫著F4字樣的介面，進入模式成功。
 
@@ -18,11 +18,11 @@ Meowbit會顯示寫著F4字樣的介面，進入模式成功。
 
 ### 方法2
 
-首先用USB線連接Meowbit到電腦。
+首先用USB線連接MeowBit到電腦。
 
-打開Meowbit電源。
+打開MeowBit電源。
 
-按著Meowbit的A按鍵不放，按一下重置按鍵。
+按著MeowBit的A按鍵不放，按一下重置按鍵。
 
 Meowbit會顯示寫著F4字樣的介面，進入模式成功。
 
@@ -49,7 +49,7 @@ Meowbit會顯示選項菜單，您可以用方向鍵選擇選項，按A確認。
 ![](./images/fw1.jpeg)
 
 將更新檔案拖到Arcade-F4上面。  
-等待Meowbit出現YAY字樣，然後按一下重置按鍵。  
+等待MeowBit出現YAY字樣，然後按一下重置按鍵。  
 
 ![](./images/fw2.jpeg)
 

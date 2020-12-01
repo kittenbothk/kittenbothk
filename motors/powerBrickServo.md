@@ -60,9 +60,9 @@ Geekservo舵機 (HKBD9005A)
 
 將舵機的橙紅啡線連接至Armourbit背部的舵機接口。
 
-![](./kbimages/servocon.jpg)
+![](./kbimages/servo_wire.png)
 
-    啡色接負極，紅色接正極，橙色接數據
+    啡色接負極，紅色接正極，橙色接數據。
     
 ### RobotBit
 
@@ -78,17 +78,25 @@ Geekservo舵機 (HKBD9005A)
 
 ![](./images/mcbanner.png)
 
+![](../meowbit/images/acbanner.png)
+
+### 此模組可供Microbit和Meowbit使用。
+
 ### ArmourBit與RobotBit的編程是一樣的。
 
 ### ArmourBit
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
 
+### [詳細方法](../Makecode/powerBrickMC)
+
 ### RobotBit
 
 ### 加載RobotBit插件：
 
 ![](./images/robotbitExtension.png)
+
+### [詳細方法](../Makecode/powerBrickMC)
 
 ### 舵機積木塊:
 
@@ -105,6 +113,24 @@ Geekservo舵機 (HKBD9005A)
 ### Makecode教學短片
 
 [![](./images/geekservotut.png)](https://www.youtube.com/watch?v=gUR2DbgVTCQ)
+
+### Meowbit:
+
+---
+
+### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+
+### [詳細方法](../Makecode/powerBrickMC)
+
+### 電機積木塊:
+
+![](../motors/images/motorblocks.png)
+
+## 電機編程
+
+![](../motors/images/servocode_meow.png)
+
+[參考程式網址](https://makecode.com/_WrrEcRhMm0o4)
 
 ## 插件版本與更新
 

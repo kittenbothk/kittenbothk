@@ -59,7 +59,7 @@ Geekservo電機 (HKBD9006A)
 
 將電機的紅黑線連接至Armourbit底部的電機接口。
 
-![](./kbimages/motorcon.jpg)
+![](./kbimages/motor_wire.png)
 
     沒有嚴格正負極之分，插的方向只會影響電機轉動方向。
     
@@ -77,11 +77,17 @@ Geekservo電機 (HKBD9006A)
 
 ![](./images/mcbanner.png)
 
+![](../meowbit/images/acbanner.png)
+
+### 此模組可供Microbit和Meowbit使用。
+
 ### ArmourBit
 
 --------
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../Makecode/powerBrickMC)
 
 ### 電機積木塊:
 
@@ -107,6 +113,8 @@ Geekservo電機 (HKBD9006A)
 
 ![](./images/robotbitExtension.png)
 
+### [詳細方法](../Makecode/powerBrickMC)
+
 ### 電機積木塊:
 
 ![](./images/2kmotorblocks_rb.png)
@@ -116,6 +124,24 @@ Geekservo電機 (HKBD9006A)
 ![](./images/2kmotorcode_rb.png)
 
 [參考程式網址](https://makecode.microbit.org/_33HMywgx9H97q)
+
+### Meowbit:
+
+---
+
+### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+
+### [詳細方法](../Makecode/powerBrickMC)
+
+### 電機積木塊:
+
+![](../motors/images/motorblocks.png)
+
+## 電機編程
+
+![](../motors/images/2kmotorcode_meow.png)
+
+[參考程式網址](https://makecode.com/_2z0C8v6XAC5y)
 
 ## 插件版本與更新
 

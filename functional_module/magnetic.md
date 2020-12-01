@@ -30,19 +30,19 @@
 
 ![](./PWmodules/images/mcbanner.png)
 
-### 加載robotbit插件：https://github.com/KittenBot/pxt-robotbit
+![](../meowbit/images/acbanner.png)
+
+### 此模組可供Microbit和Meowbit使用。
 
 #### 讀取磁場數值編程
 
+### Microbit:
+
 ![](./images/digitRead_code.png)
 
+### Meowbit:
 
-## 插件版本與更新
-
-Robotbit插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
-
+![](./images/digitRead_codeMeow.png)
 
 ## KittenBlock編程教學
 

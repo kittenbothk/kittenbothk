@@ -1,4 +1,4 @@
-# PowerBrick All in One產品介紹
+# PowerBrick產品介紹
 
 PowerBrick純電子版 (HKBK8038A)
 

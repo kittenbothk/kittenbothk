@@ -1,4 +1,4 @@
-# PowerBrick All in One積木零件清單
+# PowerBrick積木零件清單
 
 PowerBrick連積木版的零件清單，請核實積木包沒有缺少零件。
 

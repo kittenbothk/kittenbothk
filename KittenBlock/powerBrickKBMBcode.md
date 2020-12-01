@@ -13,7 +13,7 @@ Kittenblock支援兩種編程模式：
 何謂與舞台同步？那即是Microbit與舞台可以互相控制對方。
 這代表舞台和硬件的積木塊都能用，你可以用Microbit控制舞台上的角色，而且反之亦然。
     
-###2. 離線下載模式
+### 2. 離線下載模式
 
 Kittenblock也支援像Makecode那樣將程序上載到Microbit，程序保留在Microbit上就可以離線運行，不需要永遠連著電腦使用。
 
@@ -86,6 +86,8 @@ Kittenblock也支援像Makecode那樣將程序上載到Microbit，程序保留�
 大家可以看見翻譯會失敗，並會有警告，將錯誤積木變成紅色。這是因為讓小貓說話的積木是舞台限定的，Microbit不能運行，所以翻譯失敗。
 
 從這件事我們可以知道，假如想上載程式到Microbit，我們就不可以使用只限舞台的積木。
+
+舞台積木與硬件積木的解釋可以參考：[編程積木欄](./interfaceIntro/codingblocks.md)
 
 ![](./images/example2b2.png)
 

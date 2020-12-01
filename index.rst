@@ -1,6 +1,6 @@
-﻿Kittenbot HK Testing Hub
+﻿Kittenbot HK Sharing Hub
 ==========================================
-歡迎來到Kittenbot HK的Coding & STEM Testing Hub，這裡可以找到Kittenbot 的編程與STEM產品學習資訊﹑使用秘訣﹑應用分享及購買方法等… 讓”貓粉”能夠集中在這裏找到最新的”貓訊”
+歡迎來到Kittenbot HK的Coding & STEM Sharing Hub，這裡可以找到Kittenbot 的編程與STEM產品學習資訊﹑使用秘訣﹑應用分享及購買方法等… 讓”貓粉”能夠集中在這裏找到最新的”貓訊”
 
 .. toctree::
     :maxdepth: 1
@@ -16,9 +16,21 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: KittenCode介紹與使用方法
+
+    KittenCode/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: MakeCode介紹與使用方法
 
     Makecode/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: IoT方案與Wifibrick
+
+    Wifibrick/index
 
 .. toctree::
     :maxdepth: 2

@@ -23,7 +23,11 @@
 
 ![](./PWmodules/images/mcbanner.png)
 
+![](../meowbit/images/acbanner.png)
+
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../Makecode/powerBrickMC)
 
 ### 紅外線測溫積木塊：
 

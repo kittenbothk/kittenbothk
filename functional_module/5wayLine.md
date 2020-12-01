@@ -28,21 +28,26 @@
 
 ![](./PWmodules/images/mcbanner.png)
 
-### 加載robotbit插件：https://github.com/KittenBot/pxt-robotbit
+![](../meowbit/images/acbanner.png)
+
+### 此模組可供Microbit和Meowbit使用。
 
 #### 巡線感應器編程
 
-    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。建議在使用次測試和調較一下觸發巡線的數值。
+    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。
+    建議在使用前測試和調較一下觸發巡線的數值。
+
+### Microbit:
 
 ![](./images/line_code.png)
 
 [參考程式網址](https://makecode.microbit.org/_c7rXpLY791Cw)
 
-## 插件版本與更新
+### Meowbit:
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+![](./images/line_codeMeow.png)
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[參考程式網址](https://makecode.com/_2pw59JbHhVfV)
 
 ## KittenBlock編程教學
 
@@ -54,6 +59,7 @@
 
 #### 巡線感應器編程
 
-    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。建議在使用次測試和調較一下觸發巡線的數值。
+    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。
+    建議在使用前測試和調較一下觸發巡線的數值。
 
 ![](./images/line_code2.png)

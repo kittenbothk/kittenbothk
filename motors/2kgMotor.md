@@ -27,12 +27,8 @@
 - 採用十字沉孔作輸出軸
     - 可以因使用情況自由插入不同長度的十字軸
 
-- 轉動角度更大
-    - 舵機控制範圍為0至360度
-
 - 扭力更大
-    - 扭力為GeekServo 9G的三倍左右
-
+    - 扭力為GeekMotor 9G的三倍左右
 
 ## 規格尺寸
 
@@ -78,13 +74,20 @@
 
 ## MakeCode編程教學
 
+### 此模組可供Microbit和Meowbit使用。
+
+![](./images/mcbanner.png)
+
+![](../meowbit/images/acbanner.png)
+
 ### Armourbit
 
 ---
 
-![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../Makecode/powerBrickMC)
 
 ### 電機積木塊:
 
@@ -104,6 +107,8 @@
 
 ![](./images/robotbitExtension.png)
 
+### [詳細方法](../Makecode/powerBrickMC)
+
 ### 電機積木塊:
 
 ![](./images/2kmotorblocks_rb.png)
@@ -114,6 +119,24 @@
 
 [參考程式網址](https://makecode.microbit.org/_33HMywgx9H97q)
 
+### Meowbit:
+
+---
+
+### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+
+### [詳細方法](../Makecode/powerBrickMC)
+
+### 電機積木塊:
+
+![](../motors/images/motorblocks.png)
+
+## 電機編程
+
+![](../motors/images/2kmotorcode_meow.png)
+
+[參考程式網址](https://makecode.com/_2z0C8v6XAC5y)
+
 ## 插件版本與更新
 
 插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
@@ -123,6 +146,10 @@
 ## KittenBlock編程教學
 
 ![](./images/kbbanner.png)
+
+### Armourbit
+
+--- 
 
 ### 加載PowerBrick插件
 
@@ -141,6 +168,26 @@
 [參考程式下載](https://bit.ly/PowerbrickM11_01sb3)
 
 [參考程式網址](https://makecode.microbit.org/_RYHivyayYL4q)
+
+### Robotbit
+
+---
+
+### 加載Robotbit插件
+
+在左上角小貓logo旁邊的硬件欄選擇Microbit，加載Microbit與Robotbit插件。
+
+![](./images/addRB.png)
+
+### 電機積木塊
+
+![](./images/rbmotorblocks.png)
+
+### 電機編程
+
+![](./images/rbmotorcode.png)
+
+
 
 ## FAQ
 

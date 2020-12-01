@@ -9,7 +9,7 @@
 ### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
 
-### [詳細方法](../makecodeQs.md)
+### [詳細方法](../../../Makecode/powerBrickMC)
 
 人面辨識積木塊：
 
@@ -21,7 +21,7 @@
 
     由於這個功能是免費的，你使用的人臉組名稱可能有人已用過，所以請選擇一個比較獨特的名稱。
     例如Test123這種就可能有人已經用過了。
-    另外，在人臉組裏面同一個名字最多可以儲存20張照片。
+    另外，在人臉組裏面最多可以儲存20張人臉照片。
 
 ![](KOI15/3.png)
 
@@ -47,10 +47,11 @@
 
 ## 參考程式
 
-[1. 人面辨識HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_g7h3c2RKW264)
+[1. 人面辨識HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_YdW8M1VW4UEb)
 
 ## 人臉辨識示範短片
 
+[![](KOI15/4.png)](https://www.youtube.com/watch?v=XvMZMsXpg1A)
 
 
 ## 插件版本與更新

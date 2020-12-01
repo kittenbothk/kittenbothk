@@ -4,7 +4,7 @@ AB按鍵模組 (HKBM8012C)
 
 ![](./images/08_03.png)
 
-這是一塊按鍵模組，可以檢測按鍵是否按下。當按鍵被按下，模組背後應對的LED會亮燈。另外按键键按鍵上亦可插上樂高十字軸。
+這是一塊按鍵模組，可以檢測按鍵是否按下。當按鍵被按下，模組背後應對的LED會亮燈。另外按鍵上亦可插上樂高十字軸。
 
 ![](./images/IMG_2569.GIF)
 
@@ -23,13 +23,15 @@ AB按鍵模組 (HKBM8012C)
 
 將按鍵模組用4pin排線連接至Armourbit。
 
-![](./kbimages/08_02.png)
+![](./images/bumper_wire.png)
 
 ## MakeCode編程教學
 
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### AB按鍵模組積木塊:
 

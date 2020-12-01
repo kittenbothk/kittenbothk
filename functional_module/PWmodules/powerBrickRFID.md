@@ -38,7 +38,7 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 
 將RFID魔塊用4pin排線連接至Armourbit的I2C接口。
 
-![](./kbimages/rfidcon.jpg)
+![](./images/rfid_wire.png)
 
 ### Robotbit
 
@@ -55,6 +55,8 @@ RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### RFID魔塊積木塊
 

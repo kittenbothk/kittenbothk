@@ -9,7 +9,7 @@ KOI上面也有Wifi的功能，我們可以透過Wifi存取物聯網平台的數
 ### 加載KOI插件：https://github.com/KittenBot/pxt-koi
 
 
-### [詳細方法](../makecodeQs.md)
+### [詳細方法](../../../Makecode/powerBrickMC)
 
 物聯網積木塊：
 
@@ -17,17 +17,25 @@ KOI上面也有Wifi的功能，我們可以透過Wifi存取物聯網平台的數
 
 編寫程式：
 
-我們本節教程將會使用MakerCloud作示範。
+### 此教程只是作為示範，請大家依你所用的平台填寫資料。
 
-有關創客雲的資料可以參考： [創客雲介紹](https://learn.makercloud.io/zh_TW/latest/)
-    
-![](KOI14/6.png)
+### ThingSpeak平台
+
+有關ThingSpeak的教學可以參考： [ThingSpeak教學](../../../Wifibrick/MakeCode/MC_TS)
+
+### Makercloud創客雲平台
+
+[創客雲介紹](../../../Wifibrick/IoTPlatform/makercloud)
+
+假如你使用Makercloud創客雲平台，可以參考： [創客雲教學](../../../Wifibrick/MakeCode/makercloud)
+
+![](KOI14/9.png)
 
 ## 程式流程
 
 1: 首先將程式下載到Microbit上。
 
-2: 等待KOI連接網絡，完成後Microbit上會顯示剔號。
+2: 按下A+B按鍵，等待KOI連接網絡，完成後Microbit上會顯示剔號。
 
     像手提電話一樣，連接Wifi網絡的名稱密碼，和MQTT伺服器的資料已經會儲存在KOI上面。
     所以不需要每次使用時都是用連接wifi網絡和MQTT的積木，只需要訂閱話題就可以了。
@@ -40,7 +48,7 @@ KOI上面也有Wifi的功能，我們可以透過Wifi存取物聯網平台的數
 
 ## 參考程式
 
-[1. 物聯網HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_4Liiqi0oyDkH)
+[1. 物聯網HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_4UPgr7az71g1)
 
 ## 插件版本與更新
 

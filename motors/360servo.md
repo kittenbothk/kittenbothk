@@ -2,7 +2,9 @@
 
 Geek Motor O 續轉舵機(HKBD8001A)
 
-這是一款兼容樂高件的續轉舵機，是當作電機使用，輸出軸為樂高十字軸。主要用作驅動如車子，齒輪般動力機械。它的特別在於不需要舵機驅動或電機驅動芯片，可以直接用引腳驅動，適合用於例如IOBit等沒有驅動芯片的擴展板。
+![](./images/360servo1.jpg)
+
+這是一款兼容樂高件的續轉舵機，是可以當作電機使用，輸出軸為樂高十字軸。主要用作驅動如車子，齒輪般動力機械。它的特別在於不需要舵機驅動或電機驅動芯片，可以直接用引腳驅動，適合用於例如IOBit等沒有驅動芯片的擴展板。
 
 ## 產品參數
 
@@ -12,8 +14,7 @@ Geek Motor O 續轉舵機(HKBD8001A)
 - 堵轉電流：700ma
 - 打滑電流：450ma
 - 最大扭力：500g/cm(4.8V)
-- 角度轉速：60°/0.12s
-- 角度範圍：-45°~225°
+- 轉速：70rpm
 - 重量：12.4g
 - 接口：橙紅啡線
 
@@ -54,10 +55,11 @@ Geek Motor O 續轉舵機(HKBD8001A)
 
 ### IOBit
 
-將舵機連接到IOBit的引腳。
+將舵機連接到IOBit的類比引腳。
 
     可以使用3v或者5v。
-
+    啡色接負極，紅色接正極，橙色接數據。   
+    
 ![](./images/360servo_wire1.png)
 
 ![](./images/360servo_wire2.png)
@@ -66,11 +68,21 @@ Geek Motor O 續轉舵機(HKBD8001A)
 
 ![](./images/mcbanner.png)
 
+![](../meowbit/images/acbanner.png)
+
+### 此模組可供Microbit和Meowbit使用。
+
 ## 電機編程(方法1)
 
-續轉舵機需要使用伺服脈衝積木，數值範圍由500至2500。
+續轉舵機需要使用伺服脈衝積木。
+
+![](./images/360servo_block.png)
+
+續轉舵機控制數值範圍由500至2500。詳細可以參考這個圖表。
 
     500為反方向全速轉動，2500為正方向全速轉動，1500為停止轉動。
+
+![](./images/360servo_speed1.png)
 
 ![](./images/360servo_code1.png)
 
@@ -87,3 +99,19 @@ Geek Motor O 續轉舵機(HKBD8001A)
 ![](./images/360servo_code2.png)
 
 [參考程式網址](https://makecode.microbit.org/_JdJDbv5ue97t)
+
+### Meowbit:
+
+---
+
+### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+
+### 電機積木塊:
+
+![](../motors/images/motorblocks.png)
+
+## 電機編程
+
+![](../motors/images/360servo_codeMeow.png)
+
+[參考程式網址](https://makecode.com/_DPeAM8h5HMaf)

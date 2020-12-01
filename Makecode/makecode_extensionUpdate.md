@@ -1,4 +1,4 @@
-# Makecode插件版本管理
+# Makecode插件版本更換
 
 我們在Makecode上使用Kittenbot的產品必須使用插件，而插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。以下會講解一下檢查和更新插件版本的方法。
 
@@ -6,11 +6,11 @@
 
 ![](./images/mcbanner.png)
 
-本教程使用KOI插件為例子，其他插件的做法與本教程相同。
+#### 本教程使用KOI插件為例子，其他插件的做法與本教程相同。
 
-我們先加載KOI插件：
+#### 我們先加載KOI插件：
 
-**https://github.com/KittenBot/pxt-powerbrick**
+#### https://github.com/KittenBot/pxt-koi
 
 方法請參考：[KittenBot產品與MakeCode](./powerBrickMC)
 
@@ -23,8 +23,6 @@
 3. 檢查插件版本
 
 ![](./images/check.gif)
-
-
 
 ## 更新插件版本
 

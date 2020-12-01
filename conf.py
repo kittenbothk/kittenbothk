@@ -27,6 +27,7 @@ copyright = '2020, Kittenbot HK'
 author = 'Kittenbot HK'
 
 import recommonmark
+
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
@@ -56,6 +57,7 @@ source_suffix = {
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    # 'sphinx_markdown_tables',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.coverage',
     'sphinx.ext.autodoc',

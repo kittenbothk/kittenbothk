@@ -32,13 +32,15 @@ MP3魔塊 (HKBM8012E)
 
 將MP3魔塊用4pin排線連接至Armourbit。
 
-![](./kbimages/mp3con.jpg)
+![](./images/mp3_wire.png)
 
 ## MakeCode編程教學
 
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### MP3魔塊積木塊
 

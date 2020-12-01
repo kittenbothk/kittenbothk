@@ -12,6 +12,7 @@
 .. toctree::
     :maxdepth: 1
 
+    fmradio.md
     infratemp.md
     waterTank.md
     nekoUltrasound.md
@@ -24,6 +25,10 @@
     soilhumid.md
     watelevel.md
     magnetic.md
+    slider.md
+    sound.md
+    infrared.md
+    rgb.md
 
 .. toctree::
     :maxdepth: 1

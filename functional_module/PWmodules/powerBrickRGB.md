@@ -30,6 +30,8 @@
 
 將點陣魔塊用4pin排線連接至Armourbit。
 
+![](./images/rgb_wire.png)
+
 ![](./images/11_25.png)
 
 ## MakeCode編程教學
@@ -37,6 +39,8 @@
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### 點陣魔塊積木塊
 

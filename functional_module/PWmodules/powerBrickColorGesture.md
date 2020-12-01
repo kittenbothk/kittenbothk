@@ -50,7 +50,7 @@
 
 將顏色手勢魔塊用4pin排線連接至Armourbit的I2C接口。
 
-![](./kbimages/gesturecon.jpg)
+![](./images/color_wire.png)
 
 ### Robotbit
 
@@ -68,6 +68,8 @@
 ![](./images/mcbanner.png)
 
 ### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+
+### [詳細方法](../../Makecode/powerBrickMC)
 
 ### 顏色手勢魔塊積木塊:
 
