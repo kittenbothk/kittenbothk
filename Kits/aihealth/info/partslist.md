@@ -4,7 +4,7 @@ AI衛生防疫套件的零件清單，請核實配件及積木包沒有缺少零
 
 ## 配件清單
 
-![](partslist/AI Health component list.png)
+![](partslist/AIHealthComponentList.png)
 
 ## 零件清單
 

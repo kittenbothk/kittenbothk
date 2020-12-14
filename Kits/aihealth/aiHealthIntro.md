@@ -14,23 +14,42 @@
 ## AI衛生防疫套件內容
 
 - Armourbit擴展板x1
+
 - Armourbit電池盒x1
+
 - 2KG舵機 x2
+
 - 2KG電機 x2
+
 - KOI AI鏡頭 x1
+
 - 紅外線測溫模塊 x1
+
 - 18650鋰電池x1
+
 - 全彩點陣魔塊 x1
+
 - 水泵+水箱 x1
+
 - 4pin防反插排線 x4
+
 - 3pin防反插排線 x1
+
 - 1m USB數據線 x1
+
 - 200件積木包 x1
+
 - 巡線黑膠帶 x1
+
 - 說明書 x1
+
 - Microbit矽膠保護套x1
+
 - 裝飾膠片x1
-- SD卡 (256MB) x1
+
+- SD卡 (128MB) x1
+
+  ![](./images/AIHealthComponentList.png)
 
 ## 防疫案例介紹
 
