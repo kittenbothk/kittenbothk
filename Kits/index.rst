@@ -23,7 +23,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: 紙電路教學套件
+    :caption: 電路科學實驗教學套件
 
     paper_circuitry/index
 
@@ -45,4 +45,10 @@
     :caption: 四驅麥輪車套件
 
     mecanum/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: MR STEMer Kart Lite套件
+
+    robotbit_kart/index
 
