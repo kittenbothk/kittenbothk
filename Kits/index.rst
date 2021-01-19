@@ -19,6 +19,8 @@
     :maxdepth: 2
     :caption: AIoT Starter Kit
 
+    aiot/index
+
 .. toctree::
     :maxdepth: 2
     :caption: Meowbit發明家套件
