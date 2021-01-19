@@ -12,7 +12,6 @@
 .. toctree::
     :maxdepth: 1
 
-    fmradio.md
     infratemp.md
     waterTank.md
     nekoUltrasound.md
@@ -29,18 +28,19 @@
     sound.md
     infrared.md
     rgb.md
+    kittenRadio.md
 
 .. toctree::
     :maxdepth: 1
     :caption: WifiBrick與IoT方案
 
-    Wifibrick/index
+    ../Wifibrick/index
 
 .. toctree::
     :maxdepth: 1
     :caption: AI鏡頭KOI
 
-    AI Cam/index
+    ../AI Cam/index
 
 .. toctree::
     :maxdepth: 1

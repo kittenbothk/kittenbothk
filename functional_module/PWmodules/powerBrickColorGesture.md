@@ -1,6 +1,6 @@
-# 顏色手勢感應魔塊 
+# 顏色及手勢魔塊 
 
-顏色手勢感應魔塊 (HKBM8012F)
+顏色及手勢魔塊 (HKBM8012F)
 
 ![](./images/09_06.png)
 
@@ -114,6 +114,14 @@ HSV色環可以參考下圖：
 ### Makecode教學短片
 
 [![](./images/gesturetut.png)](https://www.youtube.com/watch?v=7WrkDYMc2f0)
+
+### 示範短片
+
+[![](./images/gesture_video1.png)](https://www.youtube.com/watch?v=jhGaRx7EGms)
+
+[![](./images/gesture_video2.png)](https://www.youtube.com/watch?v=BWK_pLO0qpA)
+
+[![](./images/gesture_video2.png)](https://www.youtube.com/watch?v=UTiFh02MpMc)
 
 ## 插件版本與更新
 

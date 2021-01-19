@@ -1,10 +1,10 @@
-# 土壤濕度魔塊
+# 泥土濕度魔塊
 
-土壤濕度魔塊 (HKBM8012H)
+泥土濕度魔塊 (HKBM8012H)
 
 ![](./images/03.png)
 
-這是一塊土壤濕度魔塊，它可以測量土壤的濕度，泥土越乾燥數值越大。
+這是一塊泥土濕度魔塊，它可以測量泥土的濕度，泥土越乾燥數值越大。
 
 ![](./images/IMG_2580.GIF)
 
@@ -13,7 +13,7 @@
 ## 使用注意事項：
 
 - 若長期不使用魔塊，請妥善放置乾燥地方保管，防止潮濕被氧化。
-- 魔塊上有最大限位線，請勿過度插入土壤或者水中，避免損壞電路。
+- 魔塊上有最大限位線，請勿過度插入泥土或者水中，避免損壞電路。
 
 ## 接線方法
 
@@ -29,25 +29,29 @@
 
 ### [詳細方法](../../Makecode/powerBrickMC)
 
-### 土壤濕度魔塊積木塊:
+### 泥土濕度魔塊積木塊:
 
 ![](./images/environmentblocks.png)
 
-### 土壤濕度探測編程
+### 泥土濕度探測編程
 
 ![](./images/soil.png)
 
 [參考程式網址](https://makecode.microbit.org/_i33W9gCyueDr)
+
+### Makecode教學短片
+
+[![](./images/envtut.png)](https://www.youtube.com/watch?v=ilXSpFd86DQ)
+
+### 示範短片
+
+[![](./images/soil_video.png)](https://www.youtube.com/watch?v=M4zZKMOT2u4)
 
 ## 插件版本與更新
 
 插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
 
 詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
-
-### Makecode教學短片
-
-[![](./images/envtut.png)](https://www.youtube.com/watch?v=ilXSpFd86DQ)
 
 ## KittenBlock編程教學
 
@@ -63,7 +67,7 @@
 
 ![](./kbimages/kbenvblocks.png)
 
-### 土壤濕度探測
+### 泥土濕度探測
 
 ![](./kbimages/kbsoil.png)
 

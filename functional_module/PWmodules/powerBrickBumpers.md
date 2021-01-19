@@ -1,6 +1,6 @@
-# AB按鍵模組
+# AB按鈕魔塊
 
-AB按鍵模組 (HKBM8012C)
+AB按鈕魔塊 (HKBM8012C)
 
 ![](./images/08_03.png)
 
@@ -46,6 +46,10 @@ AB按鍵模組 (HKBM8012C)
 ### Makecode教學短片
 
 [![](./images/bumpertut.png)](https://youtu.be/BT1TUlmbMm8?t=370)
+
+### 示範短片
+
+[![](./images/bumper_video.png)](https://www.youtube.com/watch?v=7uAsih1e66M)
 
 ## 插件版本與更新
 

@@ -28,6 +28,12 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: AI鏡頭KOI
+
+    AI Cam/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: IoT方案與Wifibrick
 
     Wifibrick/index

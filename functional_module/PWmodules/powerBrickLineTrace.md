@@ -1,6 +1,6 @@
-# 雙路IR巡線魔塊
+# 雙路巡線魔塊
 
-雙路IR巡線魔塊 (HKBM8012B)
+雙路巡線魔塊 (HKBM8012B)
 
 ![](./images/07_03.png)
 
@@ -52,6 +52,10 @@
 ### Makecode教學短片
 
 [![](./images/irtut.png)](https://www.youtube.com/watch?v=BT1TUlmbMm8)
+
+### 示範短片
+
+[![](./images/line_video.png)](https://www.youtube.com/watch?v=epcs80fGryM)
 
 ## 插件版本與更新
 
