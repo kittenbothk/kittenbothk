@@ -4,7 +4,7 @@
 
 ## 教材資源包下載
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+包括說明書： [資源包下載地址](http://bit.ly/MeowbitCreatorKit_SH_ResourcsePack)
 
 ## 參考接線
 
@@ -14,9 +14,9 @@
 
 ## 參考程式
 
-[灌籃高手參考程式](https://makecode.com/_LzWXEo3V5PgM)
+[灌籃高手Arcade參考程式](https://makecode.com/_LzWXEo3V5PgM)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Kittenblock sb3 參考程式資源包下載地址](http://bit.ly/MeowbitCreatorKit_SH_ResourcsePack)
 
 ## 模型玩法
 
