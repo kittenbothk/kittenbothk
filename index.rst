@@ -22,6 +22,12 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: KLink介紹與安裝
+
+    KLINK/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: MakeCode介紹與使用方法
 
     Makecode/index
@@ -43,6 +49,12 @@
     :caption: Meowbit
 
     meowbit/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: 未來板
+
+    futureboard/index
 
 .. toctree::
     :maxdepth: 2
