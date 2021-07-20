@@ -11,6 +11,13 @@
 
 .. toctree::
     :maxdepth: 1
+    :caption: Sugar魔塊
+
+    sugar/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: 一般感應器
 
     infratemp.md
     waterTank.md
