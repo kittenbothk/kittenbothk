@@ -23,7 +23,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Micro:bit大班教學 發明家套件
+    :caption: Micro:bit發明家套件
 
     classroom_inventor/index
 
