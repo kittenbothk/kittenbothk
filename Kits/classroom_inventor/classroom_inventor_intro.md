@@ -62,7 +62,7 @@ Micro:bit大班教學小發明家套件是Kittenbot針對STEM普及教育而設�
 
 ## 介紹短片
 
-[![](images/video.png)](https://youtu.be/rQ8UbNiRGUc)
+[![](images/video.png)](https://youtu.be/JaBa2EcIPDU)
 
 ## 應用案例介紹
 
