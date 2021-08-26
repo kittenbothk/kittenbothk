@@ -29,7 +29,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: 未來板IoT發明家套件
+    :caption: 未來板 物聯未來教學套件
 
     future_inventor/index
 
@@ -38,6 +38,12 @@
     :caption: Robotbit 大班教學套件
 
     classroom/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: AIoT 智能回收桶套件
+
+    ai_recycle/index
 
 .. toctree::
     :maxdepth: 2
