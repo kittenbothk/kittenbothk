@@ -13,4 +13,4 @@ AI衛生防疫套件魔塊教學
     ../../../motors/2kgMotor.md
     ../../../functional_module/waterTank.md
     ../../../functional_module/PWmodules/powerBrickRGB.md
-    ../../../functional_module/AI Cam/FunctionDemo_MC/index
+    ../../../AI Cam/FunctionDemo_MC/into.md
