@@ -24,19 +24,8 @@
     infratemp.md
     waterTank.md
     nekoUltrasound.md
-    KBbutton.md
     5wayLine.md
     legofan.md
-    potentialmeter.md
-    ambient.md
-    fire.md
-    soilhumid.md
-    watelevel.md
-    magnetic.md
-    slider.md
-    sound.md
-    infrared.md
-    rgb.md
     kittenRadio.md
 
 .. toctree::
@@ -58,4 +47,9 @@
 
     ../accessories/LEDMatrix/index
     ledstrip.md
-    
+
+.. toctree::
+    :maxdepth: 1
+    :caption: 昔日感應器
+
+    outdated/index
