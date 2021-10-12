@@ -71,6 +71,12 @@
 
 .. toctree::
     :maxdepth: 2
+    :caption: Robotbit機械臂
+
+    robotic_arm/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Meowbit發明家套件
 
     meowbit_creator/index
