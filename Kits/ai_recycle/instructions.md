@@ -4,7 +4,7 @@
 
 [搭建說明書下載](https://drive.google.com/file/d/1IBUlW5PhXEalHHotNKG1V5WK1bQOPeuZ/view?usp=sharing)
 
-![](./images/armour_wire.png)
+![](./images/armourbit_wire.png)
 
 ## Robotbit版
 
