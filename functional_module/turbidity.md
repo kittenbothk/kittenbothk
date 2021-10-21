@@ -1,6 +1,6 @@
 # 污水混濁度感應器
 
-![](./images/turbidity1.jpg)
+![](./images/turbidity3.jpeg)
 
 污水混濁度感應器可以感測水的混濁程度。
 
@@ -13,11 +13,11 @@
 
 ## 接線教學
 
-將感應器接口連接到Robotbit Edu的接口上面。
+將感應器連接到Robotbit Edu的接口上面。
 
     污水混濁度感應器建議配合水溫感應器一同使用，以下圖表忽略去水溫感應器的接線，請自行參考有關教學。
 
-![](./images/turbidity_wire.jpg)
+![](./images/turbidity_wire.png)
 
 ## MakeCode 編程教學
 
