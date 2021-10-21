@@ -40,6 +40,16 @@
 
 [參考程式網址](https://makecode.microbit.org/_WjmH6zahVTUe)
 
+## 示範短片
+
+### 未來板
+
+[![](./images/turbidity5.png)](https://youtu.be/4ePV6fmwoAA?t=7)
+
+### Micro:bit
+
+[![](./images/turbidity6.png)](https://youtu.be/4ePV6fmwoAA?t=77)
+
 ## 插件版本與更新
 
 插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
