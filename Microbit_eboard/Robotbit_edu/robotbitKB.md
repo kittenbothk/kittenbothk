@@ -77,7 +77,7 @@ Kittenbot每款電機的詳細教學可以參考：[電機教學](../../motors/i
 
 將步進電機連接到Robotbit Edu的M1和M2上（將紅色電線連接到VM）。
 
-![](../RBimage/robotbit_stepper.png)
+![](./images/stepper_wire.png)
 
     步進電機的角度範圍為-360至360度
 
