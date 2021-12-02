@@ -29,7 +29,7 @@
 
 [Armourbit版參考程式](https://makecode.microbit.org/_EErK8LD3U4zr)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_7x9XHo1Wpa0T)
+[Robotbit版參考程式](https://makecode.microbit.org/_3EFJLh3Tc7sL)
 
 ### 辨認方法
 
