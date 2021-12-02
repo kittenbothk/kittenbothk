@@ -12,9 +12,9 @@
 
 ![](./images/train_code.png)
 
-[Armourbit版參考程式](https://makecode.microbit.org/_Am5gsgJ0J6WP)
+[Armourbit版參考程式](https://makecode.microbit.org/_JrW0YiUai2r8)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_7WJFv0199PFv)
+[Robotbit版參考程式](https://makecode.microbit.org/_Ew7AEaDzw78e)
 
 ### 訓練方法
 
