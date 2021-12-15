@@ -27,7 +27,7 @@ KOI插件：https://github.com/KittenBot/pxt-KOI
 
 線條檢測積木塊：
 
-![](KOI12/image4165.png)
+![](KOI12/blocks.png)
 
 編寫程式：
 
@@ -36,6 +36,8 @@ KOI插件：https://github.com/KittenBot/pxt-KOI
 ## 按鍵A觸發顏色追蹤
 
 巡線追蹤和顏色追蹤相似，大家都需要首先進行顏色校正。
+
+您可以定義顏色的名稱。KOI可以校正並追蹤多種顏色。
 
 ![](KOI12/calibrate.png)
 
@@ -75,9 +77,9 @@ KOI插件：https://github.com/KittenBot/pxt-KOI
 
 ## 參考程式
 
-[1. 線條檢測HEX (插件0.5.7)](https://makecode.microbit.org/_DriAw4Hi5YDe)
+[1. 線條檢測HEX (插件0.6.8)](https://makecode.microbit.org/_T9747v0Vdd2q)
 
-[2. 線條檢測+OLED HEX (插件0.5.7)](https://makecode.microbit.org/_KJXToKVxW8do)
+[2. 線條檢測+OLED HEX (插件0.6.8)](https://makecode.microbit.org/_MViMLk0uhb70)
 
 ## 插件版本與更新
 
