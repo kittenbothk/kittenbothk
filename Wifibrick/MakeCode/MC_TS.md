@@ -177,7 +177,7 @@
 
 [WiFiBrick參考程式](https://makecode.microbit.org/_HqyRtK7oMTb9)
 
-[KOI參考程式](https://makecode.microbit.org/_E0V37dJJ3Yoq)
+[KOI參考程式](https://makecode.microbit.org/_M8tVeKVt3Ju9)
 
 發佈成功的話，在ThingSpeak的頁面上會看到剛才發布的信息。
 
