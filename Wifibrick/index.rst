@@ -7,8 +7,8 @@
     :maxdepth: 1
     :glob:
 
-    Wifibrick_intro
-    wifiUpdate.md
+    wifibrick/index.rst
     IoTPlatform/index
     MakeCode/index
     futureboard/thingspeak.md
+    IFTTT/index.rst

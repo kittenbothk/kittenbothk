@@ -1,6 +1,6 @@
 # 相撲小子
 
-利用車子上的硬角進行比拼，您用角可以攻擊對手，嘗試令它倒下；或者進入防禦勢態，抵擋對方攻擊。你亦可以利用你堅硬的角，將對手推出格鬥場。
+用車子進行比拼，您可以攻擊對手，嘗試令它倒下；或者進入防禦勢態，抵擋對方攻擊。你亦可以利用你強壯的身軀，將對手推出格鬥場。
 
 ![](images/rhino.png)
 
@@ -8,11 +8,13 @@
 
 說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 相撲小子-JoyFrog搖控](https://makecode.microbit.org/_JgYW9KUaDWbw)
+參考程式: 
 
-[參考程式: 相撲小子-microbit搖控](https://makecode.microbit.org/_ciVa2i45qDFD)
+[相撲小子-JoyFrog搖控](https://makecode.microbit.org/_DEmiTaf1qAz2)
 
-[參考程式: 相撲小子-主體](https://makecode.microbit.org/_E7Did0H041K0)
+[相撲小子-microbit搖控](https://makecode.microbit.org/_a3FgJm1dXRka)
+
+[相撲小子-主體](https://makecode.microbit.org/_FYAD3f49c54q)
 
 ## 參考接線
 

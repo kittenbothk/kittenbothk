@@ -1,4 +1,4 @@
-# 炮台
+# 戰爭炮台
 
 遠距離攻擊型機械人，您可以控制炮台的角度的方向，瞄準之後發射橡筋。
 
@@ -8,7 +8,9 @@
 
 說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 戰爭炮台-主體](https://makecode.microbit.org/_1HuUtRi7rbat)
+參考程式: 
+
+[戰爭炮台-主體](https://makecode.microbit.org/_1HuUtRi7rbat)
 
 ## 參考接線
 

@@ -6,7 +6,7 @@
 
 ## 組裝說明書和參考程式
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+說明書資源包： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
 
 [參考程式: 足球小將-joyfrog搖控](https://makecode.microbit.org/_ca7VFifeAhj4)
 

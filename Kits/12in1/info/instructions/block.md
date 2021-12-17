@@ -8,11 +8,13 @@
 
 說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 路障剋星-JoyFrog搖控](https://makecode.microbit.org/_FDF4x99xf8UH)
+參考程式: 
 
-[參考程式: 路障剋星-microbit搖控](https://makecode.microbit.org/_gwoa09KhTd1q)
+[路障剋星-JoyFrog搖控](https://makecode.microbit.org/_FDF4x99xf8UH)
 
-[參考程式: 路障剋星-主體](https://makecode.microbit.org/_MKqcWU0y6WHC)
+[路障剋星-microbit搖控](https://makecode.microbit.org/_gwoa09KhTd1q)
+
+[路障剋星-主體](https://makecode.microbit.org/_MKqcWU0y6WHC)
 
 ## 參考接線
 

@@ -1,6 +1,6 @@
 # AI衛生防疫套件介紹
 
-### AI衛生防疫套件 (HKBK8034A)
+### AI衛生防疫套件 (HKBK8043A)
 
 ![](./images/all.png)
 
@@ -14,42 +14,23 @@
 ## AI衛生防疫套件內容
 
 - Armourbit擴展板x1
-
 - Armourbit電池盒x1
-
 - 2KG舵機 x2
-
 - 2KG電機 x2
-
 - KOI AI鏡頭 x1
-
 - 紅外線測溫模塊 x1
-
 - 18650鋰電池x1
-
 - 全彩點陣魔塊 x1
-
 - 水泵+水箱 x1
-
 - 4pin防反插排線 x4
-
 - 3pin防反插排線 x1
-
 - 1m USB數據線 x1
-
 - 200件積木包 x1
-
 - 巡線黑膠帶 x1
-
 - 說明書 x1
-
 - Microbit矽膠保護套x1
-
 - 裝飾膠片x1
-
-- SD卡 (128MB) x1
-
-  ![](./images/AIHealthComponentList.png)
+- SD卡 (256MB) x1
 
 ## 防疫案例介紹
 
@@ -58,8 +39,6 @@
 利用機器學習偵測手掌，遇見手掌時泵出洗手液。
 
 ![](./images/wash.png)
-
-[AI酒精搓手液機示範片](https://youtu.be/onL8VfX7MMo)
 
 ### 手提探溫槍
 
@@ -73,15 +52,11 @@
 
 ![](./images/tempdesk.png)
 
-[自動追踪探溫器示範片](https://youtu.be/3xKiPECyDeo)
-
 ### 防疫用品指揮官
 
 利用機器學習，辨認防疫用品。
 
 ![](./images/command.png)
-
-[防疫用品指揮官示範片](https://youtu.be/ZkUQEeERP5w)
 
 ### 口罩佩戴偵測器
 
@@ -89,15 +64,11 @@
 
 ![](./images/maskdoor.png)
 
-[口罩佩戴偵測器示範片](https://youtu.be/QdFkcH57gtw)
-
 ### 無按鈕電梯
 
 利用機器學習，辨識手勢控制升降機。
 
 ![](./images/lift.png)
-
-[無按鈕電梯示範片](https://youtu.be/EjaEEezd9rQ)
 
 ### 非接觸式門鈴
 
