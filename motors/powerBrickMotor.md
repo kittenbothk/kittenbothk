@@ -197,8 +197,6 @@ Geekservo電機 (HKBD8006A)
 
 ![](./kbimages/9gmotor_robotbit_kb_code.png)
 
-
-
 ## FAQ
 
 1：為什麼我點擊積木塊沒有反應呢？
