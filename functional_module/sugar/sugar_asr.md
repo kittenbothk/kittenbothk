@@ -23,7 +23,7 @@
 
 ![](./images/asr2.png)
 
-## 免編程通電即用教學
+## 玩法1：免編程通電即玩
 
 語音辨識模組可以免編程通電即用，只需要將鋰電池或電池盒連接到電池接口就可以使用。
 
@@ -31,7 +31,7 @@
 
 ![](./images/asr4.png)
 
-## 操作教學
+### 操作教學
 
 ### 1. 開電後模組會讀出現時固件版本，完成之後就可以開始使用。
 
@@ -44,7 +44,7 @@
 
 ### 3. 辨識命令詞後，語音模組會回答Ok。
 
-以下的命令詞可以控制板載資源():
+以下的命令詞可以控制板載資源:
 
 燈控類:
 1. Lamp On / Light On
@@ -65,7 +65,7 @@
 執行類:
 1. Open Door / Open Window / Open Curtains / Hanger Out
     - 控制模組的舵機接口
-2. Close Door / Close Window / Close Curains / Hanger In
+2. Close Door / Close Window / Close Curtains / Hanger In
     - 控制模組的舵機接口
 3. Fan On
     - 控制模組的電機接口
@@ -77,6 +77,8 @@
     - 控制模組的電機接口
     
 ### 4. 模組閒置10秒之後會進入睡眠模式，進入睡眠模式之後需要再次喚醒才可使用。
+
+## 玩法2：配合編程使用
 
 ## 編程教學
 
@@ -90,11 +92,19 @@
 
 ### [詳細方法](../../Makecode/powerBrickMC)
 
+### 完整命令表
+
+![](./images/asr_commands.png)
+
 ### 參考程式
 
 ![](./images/asr_code1.png)
 
 [參考程式下載](https://makecode.microbit.org/_F68D6iWFUMvi)
+
+### 參考程式用法：
+
+喚醒語音模組之後對語音模組說出Lamp On或Lamp Off，Micro:bit上的LED就會亮起相應的燈。
 
 ### 未來板KittenBlock編程教學
 
