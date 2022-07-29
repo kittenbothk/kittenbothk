@@ -1,7 +1,7 @@
 Jacdac
 ==========================================
 
-有關Jacdac的資訊
+Details surrounding Jacdac and the education kits designed for it.
 
 .. toctree::
     :maxdepth: 1
