@@ -12,19 +12,47 @@
 
 ![](../images/sink_wire.png)
 
-## MakerCloud參考程式
+## MakerCloud版參考程式
 
 ### Micro:bit
 
-![](../images/sink_code_mc.png)
+![](../images/sink_code_mc_makercloud.png)
 
-[參考程式](https://makecode.microbit.org/_4iCLs6HERhci)
+[參考程式](https://makecode.microbit.org/_heKcs9fRFK5c)
 
 ### 未來板
 
-![](../images/sink_code_kb.png)
+![](../images/sink_code_kb_makercloud.png)
 
-[參考程式(右擊，另存為)](./smartSink.sb3)
+[參考程式(右擊，另存為)](./smartSink_makercloud.sb3)
+
+## ObjectBlocks版參考程式
+
+### Micro:bit
+
+![](../images/sink_code_mc_objectblocks.png)
+
+[參考程式](https://makecode.microbit.org/_YKtCCzWz7PsY)
+
+### 未來板
+
+![](../images/sink_code_kb_objectblocks.png)
+
+[參考程式(右擊，另存為)](./smartSink_objectblocks.sb3)
+
+## ThingSpeak版參考程式
+
+### Micro:bit
+
+![](../images/sink_code_mc_thingspeak.png)
+
+[參考程式](https://makecode.microbit.org/_8omTCjHcjDi0)
+
+### 未來版
+
+![](../images/sink_code_kb_thingspeak.png)
+
+[參考程式(右擊，另存為)](./smartSink_thingspeak.sb3)
 
 ## 示範短片
 
