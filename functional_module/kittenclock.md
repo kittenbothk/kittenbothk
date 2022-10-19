@@ -1,6 +1,6 @@
 # KittenClock時鐘模組
 
-KittenClock時鐘模組可以獲取現時時間，並且在斷電後仍能靠板上電池運行。
+KittenClock時鐘模組可以獲取現時時間，並且在斷電後仍能靠板上電池計時。
 
 ## 產品參數
 
@@ -31,6 +31,8 @@ KittenClock時鐘模組可以獲取現時時間，並且在斷電後仍能靠板
 
 ### KittenClock編程
 
+    設定時間只需要在初次啟動或更換電池後使用，設定後只要電池有電時鐘就會一直運行。
+
 ![](./images/kittenclock_code_mc.png)
 
 [參考程式網址](https://makecode.microbit.org/_UdL7tp2HuihK)
@@ -55,14 +57,12 @@ KittenClock時鐘模組可以獲取現時時間，並且在斷電後仍能靠板
 
 ### KittenClock編程
 
+    設定時間只需要在初次啟動或更換電池後使用，設定後只要電池有電時鐘就會一直運行。
+
 ![](./images/kittenclock_code_kb.png)
 
 ## 示範短片
 
 ### Micro:bit
 
-[![](./images/turbidity6.png)](https://youtu.be/4ePV6fmwoAA?t=77)
-
-### 未來板
-
-[![](./images/turbidity5.png)](https://youtu.be/4ePV6fmwoAA?t=7)
+[![](./images/kittenclock8.png)](https://www.youtube.com/watch?v=mO0ABHGqSdo)
