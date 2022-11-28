@@ -108,11 +108,11 @@ Geekservo舵機 (HKBD8005A)
 
 ## 舵機編程
 
-![](./images/servo.png)
+![](./images/9gservo_code.png)
 
 [參考程式下載](https://bit.ly/PowerbrickM12_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_APuPfVUHtMpe)
+[參考程式網址](https://makecode.microbit.org/_DzFfzKPmuM4s)
 
 ### Makecode教學短片
 
@@ -132,7 +132,7 @@ Geekservo舵機 (HKBD8005A)
 
 ## 電機編程
 
-![](../motors/images/servocode_meow.png)
+![](../motors/images/9gservo_code_meow.png)
 
 [參考程式網址](https://makecode.com/_WrrEcRhMm0o4)
 
