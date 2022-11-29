@@ -4,6 +4,7 @@
 .. toctree::
     :maxdepth: 1
 
+    micropython
     api1
     api2
     api3
@@ -17,3 +18,5 @@
     api11
     api12
     api13
+    api14
+    api15
