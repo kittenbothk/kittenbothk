@@ -23,12 +23,14 @@
 ### Python參考程式
 
     #/bin/python
-
+    
     from time import sleep
     from future import *
+    from machine import RTC
+    rtc = RTC()
     from sugar import *
+    import ntptime
     import robotbit
-    import time
     
     x = 0
     last_state = 0
@@ -38,6 +40,12 @@
     time = 0
     
     
+    
+    wifi.connect(str(""), "")
+    
+    ntptime.settime(int(8))
+    
+    start_time = (rtc.datetime()[int(6)] + (rtc.datetime()[int(5)] * 60 + rtc.datetime()[int(4)] * 3600))
     
     last_state = Tracker("P2").value() == 1
     
@@ -63,18 +71,18 @@
       curr_state = Tracker("P2").value() == 1
       if not last_state == curr_state:
         if curr_state == 1 and last_state == 0:
-          end_time = time.ticks_ms()
+          end_time = (rtc.datetime()[int(6)] + (rtc.datetime()[int(5)] * 60 + rtc.datetime()[int(4)] * 3600))
           robot.geekServo2kg(1, 90)
           buzzer.melody(NOTICE)
           screen.clear()
-          time = (round((end_time - start_time) / 1000))
+          time = (end_time - start_time)
           screen.text(str(str("Time: ")+str(time)),5,10,2,(0, 119, 255))
           screen.text(str(str("Fee: ")+str(time * 10)),5,30,2,(0, 119, 255))
           screen.text(str("Thank You"),5,50,2,(0, 119, 255))
           sleep(5)
           robot.geekServo2kg(1, 180)
         if curr_state == 0 and last_state == 1:
-          start_time = time.ticks_ms()
+          start_time = (rtc.datetime()[int(6)] + (rtc.datetime()[int(5)] * 60 + rtc.datetime()[int(4)] * 3600))
           buzzer.melody(POWER_UP)
         last_state = curr_state
         if curr_state == 1:
@@ -93,6 +101,7 @@
           buzzer.melody(BA_DING)
           sleep(5)
           robot.geekServo2kg(1, 180)
+
 
 [參考程式下載(右鍵->另存為)](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/future_inventor/instructions/py/parking.py)
 
