@@ -19,6 +19,10 @@ MicroCode是由Microsoft開發的編程平台，它設計的目的是為了讓�
 - 實時編程+運行
     - 在電腦上的編程會在Micro:bit上實時同步下載
     - 亦實現可以離線編程
+
+- 支援Newbit Arcade Shield
+    - 能透過Newbit Arcade Shield脫離電腦下進行編程
+    - [Newbit Arcade Shield介紹](https://kittenbothk.readthedocs.io/en/latest/Microbit_eboard/arcade_shield/arcadeshield.html)
     
 - 支援Jacdac模組
     - 連接Jacdac模組加入更多玩法
@@ -64,3 +68,21 @@ MicroCode的離線使用需要用到Micro:bit V2和Newbit Arcade Shield。
 ![](./images/newbit3.png)
 
 然後就可以開始編程。
+
+![](./images/newbit4.png)
+
+## 編程教學
+
+在MicroCode的主頁有2個選項，第一是編寫程式，第二是打開範例。
+
+使用Newbit的方向鍵選擇，按A確認。
+
+進入編程的頁面後就會顯示先前儲存的程式，您可以繼續更改。
+
+進入範例頁面就可以打開各種示範程式，或者建立新程式。選擇或建立程式後就會打開該程式的編程頁面。
+
+## 微軟官方示範短片
+
+[![](./images/microcode3.png)](https://www.youtube.com/watch?time_continue=717&v=mbF-HU9IZ-A&feature=emb_title)
+
+[MicroCode示範影片](https://www.youtube.com/watch?time_continue=717&v=mbF-HU9IZ-A&feature=emb_title)
