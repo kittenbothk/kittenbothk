@@ -1,10 +1,12 @@
 # K-Watch 未來板擴展板
 
-![](./kwatch/kwatch1.jpg)
+![](./kwatch/kwatch4.png)
 
 K-Watch擴展板是為未來板而設計的擴展板，它的手錶式設計容許用家設計各款穿戴式裝置應用。板上搭載鋰電池及時鐘模組，輕便地為未來板加上發展空間。
 
 ## K-Watch 產品特色
+
+![](./kwatch/kwatch1.jpg)
 
 - 體積細小
     - 適合設計穿戴式裝置
@@ -36,3 +38,9 @@ K-Watch擴展板是為未來板而設計的擴展板，它的手錶式設計容�
 ## K-Watch 元件介紹
 
 ![](./kwatch/board.png)
+
+## 產品圖片
+
+![](./kwatch/kwatch2.jpg)
+
+![](./kwatch/kwatch3.jpg)
