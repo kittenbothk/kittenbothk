@@ -11,14 +11,17 @@
 - iobit 2.0入門擴展板 *1
 - 鋰電池 *1
 - Sugar 雷射測距模組 *1
-- Sugar 光敏感應模組 *1
 - Sugar 磁力感應模組 *1
 - Sugar 氣壓海拔模組 *1
+- Sugar I2C分線模組 *1
 - 組裝積木包
 
 ## 套件特色
 
-1. 融合科學與編程，體現出STEM的教育理念
+1. 融合科學、數學與編程，體現出STEM的教育理念
+2. 套件有足夠材料可以同時間搭建4個小型應用模型(1~4)或者搭建1個完整應用模型(5)
+3. 結合物聯網技術，學生可以學習物聯網與生活的關係
+4. 使用KittenBlock圖像化編程
 
 ## 套件應用案例介紹
 
@@ -30,22 +33,14 @@
 
 ![](./images/rainfall.png)
 
-### 3. 環境亮度檢測
-
-![](./images/light.png)
-
-### 4. 風速檢測
+### 3. 風速檢測
 
 ![](./images/windspeed.png)
 
-### 5. 風向檢測
+### 4. 風向檢測
 
 ![](./images/wind_direction.png)
 
-### 6. 風速+風向檢測
-
-![](./images/windspeed%2Bdirection.png)
-
-### 7. 完整氣象站
+### 5. 完整氣象站
 
 ![](./images/complete_station.png)

@@ -6,6 +6,14 @@
 
 ## 搭建說明書
 
+[下載搭建說明書](https://github.com/kittenbothk/kittenbothk/raw/345ada4b3e77923d165c0592a65a5ad5345995c9/Kits/future_weather/instructions/temp_atmosphere.pdf)
+
 ## 接線圖
 
+![](./images/temp_atmosphere_wiring.png)
+
 ## 範例程式
+
+![](./images/temp_atmosphere_code.png)
+
+[下載範例程式](https://github.com/kittenbothk/kittenbothk/raw/345ada4b3e77923d165c0592a65a5ad5345995c9/Kits/future_weather/sb3/1_temp_humidity.sb3)
