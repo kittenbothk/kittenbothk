@@ -43,4 +43,6 @@
 
 ### 5. 完整氣象站
 
+    (這模型需要2塊未來板)
+
 ![](./images/complete_station.png)
