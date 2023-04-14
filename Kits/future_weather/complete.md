@@ -12,7 +12,7 @@
 
 ## 接線圖
 
-![](./images/windspeed_wiring.png)
+![](./images/complete_wiring.png)
 
 ## 範例程式
 
