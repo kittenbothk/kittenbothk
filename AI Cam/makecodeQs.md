@@ -22,7 +22,7 @@ Armourbit與KOI配合使用時，KOI必須額外提供5V電。
 
 Robotbit Edu上已經提供了4pin的通訊接口，我們只需要將KOI連接到通訊接口就可以了。
 
-![](./McQsImage/edu_wiring_new+old.png)
+![](./McQsImage/edu1.png)
 
 由於Robotbit Edu的通訊接口使用了P2與P12，我們在MakeCode裡面就要相應地選擇引腳。
 
