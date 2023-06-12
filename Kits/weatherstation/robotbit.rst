@@ -1,4 +1,4 @@
-未來板+robotbit版本
+未來板+Robotbit版本
 ============
 
 .. toctree::

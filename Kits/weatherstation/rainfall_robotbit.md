@@ -6,7 +6,7 @@
 
 ## 搭建說明書
 
-[下載搭建說明書](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/future_weather/instructions/rainfall_robotbit.pdf)
+[下載搭建說明書](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/weatherstation/instructions/rainfall_robotbit.pdf)
 
 ## 接線圖
 
@@ -16,6 +16,6 @@
 
 ![](./images/rainfall_code.png)
 
-[下載範例程式](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/future_weather/sb3/2_rainfall.sb3)
+[下載範例程式](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/weatherstation/sb3/2_rainfall.sb3)
 
-[下載範例python程式](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/future_weather/py/2_rainfall.py)
+[下載範例python程式](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/weatherstation/py/2_rainfall.py)
