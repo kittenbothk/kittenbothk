@@ -1,18 +1,18 @@
-# Sugar二期 環境氣壓模組
+# Sugar二期 灰度感應器模組
 
-![](./images/envii_render.png)
+![](./images/gray_render.png)
 
-這個是環境氣壓模組，除了溫度之外它還可以探測到氣壓數值。
+這是一個灰度感應器。
 
 ## 產品參數
 
-接口: I2C接口
+- 尺寸：24 x 24 x 23 mm
 
 ## 產品接線
 
-用4PIN連接線將模組連接到Robotbit上的I2C接口。
+用3Pin 連接線將模組與Robotbit Edu連接起來。
 
-![](./images/env_wire.png)
+![](./images/gray_wire.png)
 
 ## 編程教學
 
@@ -32,6 +32,6 @@ Sugar插件：https://github.com/KittenBot/pxt-sugar
 
 ### [詳細方法](../../Makecode/powerBrickMC)
 
-![](./images/envii_code_mc.png)
+![](./images/gray_code_mc.png)
 
-[參考程式](https://makecode.microbit.org/_UHs8PafkARch)
+[參考程式](https://makecode.microbit.org/_JCPLVv74fhCW)

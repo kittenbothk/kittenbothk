@@ -10,6 +10,8 @@
 
 用3Pin 連接線將模組與Robotbit Edu連接起來。
 
+![](./images/watertemp_wire.png)
+
 ![](./images/watertemp2.jpg)
 
 ## 編程教學

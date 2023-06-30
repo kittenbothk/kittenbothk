@@ -12,6 +12,8 @@
 
 用4PIN連接線將模組連接到Robotbit上的I2C接口。
 
+![](./images/display_wire.png)
+
 ## 編程教學
 
 ### MakeCode編程教學
