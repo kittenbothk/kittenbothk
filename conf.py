@@ -26,14 +26,14 @@ sys.path.append(os.path.abspath("./_ext"))
 copyright = '2020, Kittenbot HK'
 author = 'Kittenbot HK'
 
-#import recommonmark
+import recommonmark
 
-#from recommonmark.parser import CommonMarkParser
-#from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
-#source_parsers = {
-#    '.md': recommonmark.parser.CommonMarkParser,
-#}
+source_parsers = {
+    '.md': recommonmark.parser.CommonMarkParser,
+}
 source_suffix = {
     '.rst': 'restructuredtext', 
     '.md': 'markdown',
