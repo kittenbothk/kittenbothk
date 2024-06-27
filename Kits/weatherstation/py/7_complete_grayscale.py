@@ -3,54 +3,61 @@ from future import *
 import math
 import time
 
+volume = 0
+lowest = 0
+south = 0
+direction = 0
+timecount = 0
 rainfall = 0
 timeOut = 0
 light = 0
+highest = 0
+southeast = 0
 angle = 0
-volume = 0
 temp = 0
 flag = 0
 height = 0
 distance = 0
 hpa = 0
 sum2 = 0
-direction = 0
 area = 0
 speed = 0
-radius = 0
 timeIn = 0
 circumference = 0
-north = 0
-west = 0
-depth = 0
-south = 0
-east = 0
-southeast = 0
-southwest = 0
-northwest = 0
 northeast = 0
+radius = 0
+northwest = 0
+southwest = 0
+depth = 0
+east = 0
+west = 0
+north = 0
 env2 = ENV2()
 hall_P1 = Hall('P1')
 light_P0 = Light('P0')
 tofDis = TOFDistance()
 
-def winddirection():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+def windDirection():
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   angle = light_P0.value()
-  if (math.fabs(angle - north)) < 30:
-    direction = 'North'
-  if (math.fabs(angle - west)) < 30:
-    direction = 'West'
-  if (math.fabs(angle - south)) < 30:
-    direction = 'South'
-  if (math.fabs(angle - east)) < 30:
+  if angle < southeast or angle > northeast:
     direction = 'East'
+  else:
+    if angle < northeast and angle > northwest:
+      direction = 'North'
+    else:
+      if angle < northwest and angle > southwest:
+        direction = 'West'
+      else:
+        if angle < southwest and angle > southeast:
+          direction = 'South'
 
 def setUp():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   angle = 0
   flag = True
   sum2 = 0
+  timecount = 0
   radius = 6
   circumference = ((2 * 3.14) * radius) / 100
   height = 135
@@ -72,13 +79,14 @@ def setUp():
   timeIn = time.ticks_ms()
 
 def Windspeed():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   timeOut = time.ticks_ms()
   if (timeOut - timeIn) >= 5000:
     distance = sum2 * circumference
     speed = distance / 5
     timeIn = time.ticks_ms()
     sum2 = 0
+    timecount = 0
   if hall_P1.value() == 0:
     flag = True
   if not hall_P1.value() == 0:
@@ -87,17 +95,17 @@ def Windspeed():
       flag = False
 
 def Rainfall():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   rainfall = height - tofDis.value()
   volume = area * (rainfall / 10)
   volume = math.floor(volume) + math.floor((volume % 1) * 100) / 100
 
 def LightDirection():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   light = sensor.getLight()
 
 def Atmosphere():
-  global rainfall,timeOut,light,angle,volume,temp,flag,height,distance,hpa,sum2,direction,area,speed,radius,timeIn,circumference,north,west,depth,south,east,southeast,southwest,northwest,northeast
+  global volume,lowest,south,direction,timecount,rainfall,timeOut,light,highest,southeast,angle,temp,flag,height,distance,hpa,sum2,area,speed,timeIn,circumference,northeast,radius,northwest,southwest,depth,east,west,north
   env2.update()
   temp = env2.read_temp()[0]
   hpa = env2.read_pres()
@@ -111,7 +119,7 @@ while True:
   Windspeed()
   Rainfall()
   LightDirection()
-  winddirection()
+  windDirection()
   screen.fill((0, 0, 0))
   screen.text('Wind:'+str(speed)+'m/s',5,10,1,(255, 255, 255))
   screen.text('Volume: '+str(volume)+'ml',5,20,1,(255, 255, 255))
