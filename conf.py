@@ -28,8 +28,10 @@ author = 'Kittenbot HK'
 
 import recommonmark
 
-from recommonmark.parser import CommonMarkParser
-from recommonmark.transform import AutoStructify
+#from recommonmark.parser import CommonMarkParser
+#from recommonmark.transform import AutoStructify
+from sphinx_markdown_parser.parser import MarkdownParser, CommonMarkParser
+from sphinx_markdown_parser.transform import AutoStructify
 
 
 source_suffix = {
@@ -65,6 +67,9 @@ extensions = [
     # 'sphinx_js',
     'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',  # 异页跳转
+    'sphinx.ext.mathjax',
+    'sphinx_js',
+    'sphinx_markdown_builder'
     # [My Subtitle][]
     # [My Subtitle]: <path/to/md:title>
 
@@ -276,8 +281,23 @@ html_theme_options = {
 # AutoStructify
 def setup(app):
     app.add_source_suffix('.md', 'markdown')
+    app.add_source_parser(MarkdownParser)
+    # app.add_source_parser(CommonMarkParser)
+    app.add_config_value('markdown_parser_config', {
+        'auto_toc_tree_section': 'Content',
+        'enable_auto_toc_tree': True,
+        'enable_eval_rst': True,
+        'enable_inline_math': True,
+        'enable_math': True,
+    }, True)
+    app.add_stylesheet('styles/main.css')
+    app.add_javascript('scripts/main.js')
+    app.add_transform(AutoStructify)
+    '''
+    app.add_source_suffix('.md', 'markdown')
     app.add_config_value('recommonmark_config', {
             'url_resolver': lambda url: github_doc_root + url,
             'auto_toc_tree_section': 'Contents',
             }, True)
     app.add_transform(AutoStructify)
+    '''
