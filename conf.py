@@ -90,7 +90,7 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = 'Kittenbot HK hub'
+project = 'Kittenbot HK Hub(No Maintenance)'
 copyright = '2020, Kittenbot HK'
 author = 'Kittenbot HK team'
 
