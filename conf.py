@@ -28,7 +28,7 @@ author = 'Kittenbot HK'
 
 import recommonmark
 
-from recommonmark.parser import CommonMarkParser, MarkdownParser
+from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
 
@@ -276,15 +276,6 @@ html_theme_options = {
 # AutoStructify
 def setup(app):
     app.add_source_suffix('.md', 'markdown')
-    app.add_source_parser(MarkdownParser)
-    # app.add_source_parser(CommonMarkParser)
-    app.add_config_value('markdown_parser_config', {
-        'auto_toc_tree_section': 'Content',
-        'enable_auto_toc_tree': True,
-        'enable_eval_rst': True,
-        'enable_inline_math': True,
-        'enable_math': True,
-    }, True)
     app.add_config_value('recommonmark_config', {
             'url_resolver': lambda url: github_doc_root + url,
             'auto_toc_tree_section': 'Contents',
