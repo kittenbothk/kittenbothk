@@ -31,14 +31,14 @@ import recommonmark
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
-source_parsers = {
-    '.md': recommonmark.parser.CommonMarkParser,
-}
+
 source_suffix = {
     '.rst': 'restructuredtext', 
     '.md': 'markdown',
 }
-
+source_parsers = {
+    '.md': recommonmark.parser.CommonMarkParser,
+}
 # def get_version():
 #     """Return package version from setup.cfg."""
 #     config = RawConfigParser()
